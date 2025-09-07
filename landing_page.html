@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DTC</title>
+  <style>
+    /* Reset & Base */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; color:black; overflow-x: hidden; }
+    h1,h2,h3 { color: #000; font-weight: 700; }
+    ul { list-style: none; } 
+    .h4{
+      color:white;
+    }
+    /* Navbar */
+    .navbar {
+      position: fixed; top: 0; width: 100%; z-index: 1000;
+      background: black; backdrop-filter: blur(12px);
+      box-shadow: 0 2px 20px rgba(0,0,0,0.08); padding: 10px;
+    }
+    .nav-container {
+      max-width: 1400px; margin: 0 auto; padding: 0 2rem;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .nav-center { display: flex; gap: 2rem; }
+    .nav-center a {
+      text-decoration: none; color: white; font-weight: 500; transition: color .3s;
+    }
+    .nav-center a:hover { color: #ff6542; }
+    .nav-right { display: flex; gap: 1rem; align-items: center; }
+    .dropdown { position: relative; }
+    .dropdown-btn {
+      background: transparent; border: 2px solid #ff6542; color: #ff6542;
+      padding: .5rem 1rem; border-radius: 6px; font-weight: 600; cursor: pointer;
+    }
+    .dropdown-content {
+      position: absolute; top: 100%; right: 0; display: none;
+      background: #fff; border-radius: 8px; min-width: 150px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+    .dropdown-content a {
+      display: block; padding: .8rem 1rem; color: #333; text-decoration: none;
+    }
+    .dropdown-content a:hover { background: #f5f5f5; color: #ff6542; }
+    .dropdown:hover .dropdown-content { display: block; }
+    .btn-login {
+      background: #ff6542; color: #fff; padding: .5rem 1rem;
+      border: none; border-radius: 6px; font-weight: 600; cursor: pointer;
+    }
+    /* Hero */
+    .hero {
+      background: linear-gradient(135deg, #f8f9ff, #e6f3ff, #fff);
+      padding: 120px 2rem 80px;
+    }
+    .hero-container {
+      max-width: 1400px; margin: 0 auto; display: grid;
+      grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;
+    }
+    .hero h1 { font-size: 3.5rem; line-height: 1.1; margin-bottom: 1.5rem; }
+    .highlight { color: #ff6542; }
+    .hero p { font-size: 1.3rem; color: #666; margin-bottom: 2rem; }
+    .hero-stats { display: flex; gap: 2rem; margin-bottom: 2.5rem; }
+    .stat-item { text-align: center; }
+    .stat-number { font-size: 1.8rem; font-weight: 700; color: #ff6542; }
+    .stat-text { font-size: .9rem; color: #666; }
+    .btn-primary {
+      background: black; color: #fff;
+      padding: 1rem 2rem; border: none; border-radius: 8px;
+      font-size: 1.1rem; font-weight: 600; cursor: pointer;
+      box-shadow: 0 4px 15px rgba(255,101,66,.3); transition: .3s;
+    }
+    .btn-primary:hover { transform: translateY(-2px); }
+    .hero-visual {
+      position: relative; height: 400px; border-radius: 16px;
+      background: #fff; box-shadow: 0 20px 40px rgba(0,0,0,.1); overflow: hidden;
+    }
+    .traffic-map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+    .traffic-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(45deg,rgba(255,101,66,.1),rgba(84,195,241,.1),rgba(52,208,88,.1));
+      display: flex; align-items: center; justify-content: center;
+    }
+    .traffic-data {
+      background: rgba(255,255,255,.9); padding: 1.5rem; border-radius: 12px;
+      text-align: center; backdrop-filter: blur(10px);
+    }
+    .traffic-data h4 { font-size: 1.2rem; margin-bottom: .5rem; }
+    /* Features */
+    .features { padding: 80px 2rem; }
+    .container { max-width: 1400px; margin: auto; }
+    .section-header { text-align: center; margin-bottom: 3rem; }
+    .section-title { font-size: 2.5rem; margin-bottom: 1rem; }
+    .section-subtitle { font-size: 1.1rem; color: #666; }
+    .features-grid {
+      display: grid; grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+      gap: 2rem;
+    }
+    .feature-card {
+      background: #f8f9ff; padding: 2rem; border-radius: 12px;
+      border-left: 4px solid #ff6542; transition: .3s;
+    }
+    .feature-card:hover { transform: translateY(-5px); box-shadow: 0 15px 30px rgba(255,101,66,.1); }
+    .feature-image {
+      width: 100%; height: 180px; border-radius: 8px; margin-bottom: 1.5rem;
+      background-size: cover; background-position: center;
+    }
+    .feature1-img { background-image: url('./images/livetrack.jpg');}
+    .feature2-img { background-image: url('./images/optimization.jpg'); }
+    .feature3-img { background-image: url('./images/planning.jpg'); }
+    .feature-card h3 { font-size: 1.4rem; margin-bottom: 1rem; }
+    .feature-card p { color: #666; }
+    /* Technology */
+    .technology { padding: 80px 2rem; background: linear-gradient(135deg,#f8f9ff,#fff); }
+    .tech-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-top: 2rem; align-items: center; }
+    .tech-content h3 { font-size: 2rem; margin-bottom: 1.5rem; }
+    .tech-list li {
+      display: flex; align-items: center; margin-bottom: .8rem; color: #555;
+    }
+    .tech-list li::before {
+      content: '✓'; width: 20px; height: 20px; margin-right: 1rem;
+      background: #ff6542; color: #fff; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center; font-size: .7rem;
+    }
+    .tech-visual {
+      background: #fff; padding: 2rem; border-radius: 16px;
+      box-shadow: 0 15px 30px rgba(0,0,0,.08); text-align: center;
+    }
+    .tech-image {
+      width: 100%; height: 200px; border-radius: 12px; margin-bottom: 1.5rem;
+      background: url('./images/controlhub.jpg') center/cover;
+    }
+    /* Real-time Data */
+    .realtime-data { padding: 60px 2rem; background: #f0f0f0; }
+    .data-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); gap: 1.5rem; margin-top: 2rem; }
+    .data-card {
+      background: #fff; padding: 1.5rem; border-radius: 12px;
+      text-align: center; box-shadow: 0 5px 15px rgba(0,0,0,.08);
+    }
+    .data-value { font-size: 2rem; font-weight: 700; color: #ff6542; }
+
+    /* Stats */
+    .stats-section { padding: 80px 2rem; background:rgb(236, 236, 245); color:#000; text-align: center; }
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); gap: 2rem; margin-top: 2rem; }
+    .stat-card .number { font-size: 3rem; font-weight: 800; color: #ff6542; }
+
+    /* Chatbot */
+    .chatbot-icon {
+      position: fixed; bottom: 30px; right: 30px; width: 60px; height: 60px;
+      background: linear-gradient(135deg,#ff6542,#ff8a65);
+      border-radius: 50%; display: flex; align-items: center; justify-content: center;
+      cursor: pointer; z-index: 999; box-shadow: 0 4px 20px rgba(255,101,66,.4);
+      animation: pulse 2s infinite; transition: .3s;
+    }
+    .chatbot-icon:hover { transform: scale(1.1); box-shadow: 0 6px 25px rgba(255,101,66,.6); }
+    .chatbot-icon svg { width: 28px; height: 28px; fill: #fff; }
+    @keyframes pulse {
+      0%,100% { box-shadow: 0 4px 20px rgba(255,101,66,.4); }
+      50% { box-shadow: 0 4px 20px rgba(255,101,66,.8); }
+    }
+    /* Footer */
+    .footer { background: #000; color: #fff; padding: 60px 2rem 40px; }
+    .footer-grid {
+      display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem;
+      max-width: 1400px; margin: auto;
+    }
+    .footer-brand h3 { color: #ff6542; font-size: 1.5rem; margin-bottom: 1rem; }
+    .footer-brand p { color: #ccc; }
+    .footer-section h4 { margin-bottom: 1rem; }
+    .footer-section a { color: #ccc; text-decoration: none; transition: .3s; }
+    .footer-section a:hover { color: #ff6542; }
+    .footer-bottom {
+      border-top: 1px solid #333; margin-top: 3rem; padding-top: 2rem;
+      text-align: center; color: #666;
+    }
+    /* Responsive */
+    @media (max-width: 768px) {
+      .nav-center,.nav-right { display: none; }
+      .hero-container, .tech-grid, .footer-grid { grid-template-columns: 1fr; text-align: center; }
+      .hero h1 { font-size: 2.5rem; }
+    }
+    .logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+.logo-img {
+  width: 35px;      /* Adjust size */
+  height: 35px;
+  margin-right: 8px;
+  border-radius: 50%;  /* ensures circle */
+  object-fit: cover;   /* crops perfectly */
+}
+.tech-list {
+  margin-left: 0;  /* reset margin */
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  max-width: 450px; /* optional: controls the list’s width */
+}
+.tech-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-weight: bold;       /* bold text */
+  color: #000;             /* black text */
+  padding: 0.8rem 1rem;
+  background: rgba(255, 99, 71, 0.12); /* faint coral shade */
+  border-radius: 8px;
+  opacity: 0;              /* hidden at start for animation */
+  transform: translateX(-20px);
+  animation: fadeInRight 0.6s forwards;
+}
+
+/* Animate each li with a delay */
+.tech-list li:nth-child(1) { animation-delay: 0.2s; }
+.tech-list li:nth-child(2) { animation-delay: 0.4s; }
+.tech-list li:nth-child(3) { animation-delay: 0.6s; }
+.tech-list li:nth-child(4) { animation-delay: 0.8s; }
+.tech-list li:nth-child(5) { animation-delay: 1s; }
+.tech-list li:nth-child(6) { animation-delay: 1.2s; }
+
+@keyframes fadeInRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* Keep the circle tick mark inside coral cards */
+.tech-list li::before {
+  content: '✓';
+  width: 22px;
+  height: 22px;
+  margin-right: 1rem;
+  background: #ff6542;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  flex-shrink: 0;
+}
+.tech-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers h3 and list together */
+}
+.tech-content h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+  </style>
+</head>
+<body>
+ <!-- Navbar -->
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo" style="width:46px; height:46px; border-radius:8px;">
+      GridPilot
+    </div>
+    <ul class="nav-center">
+      <li><a href="#features">Solutions</a></li>
+      <li><a href="#technology">Technology</a></li>
+      <li><a href="#data">Live Data</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="dropdown">
+        <button class="dropdown-btn">Register ▼</button>
+        <div class="dropdown-content">
+          <a href="register_driver.html">Bus Driver</a>
+          <a href="register_passenger.html">Passenger</a>
+          <a href="register_admin.html">DTC Admin</a>
+        </div>
+      </div>
+      <a href="login.html" class="btn-login">Login</a>
+    </div>
+  </div>
+</nav>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <h1>DTC's <span class="highlight">Traffic Management</span> System</h1>
+        <p>Advanced AI-powered platform delivering real-time traffic optimization, route management, and intelligent bus fleet coordination.</p>
+        <button class="btn-primary">Get Traffic Insights</button>
+      </div>
+      <div class="hero-visual">
+        <div class="traffic-map">
+  <video autoplay muted loop playsinline>
+    <source src="videos/video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+      </div>
+    </div>
+  </section>
+  <!-- Features -->
+  <section id="features" class="features">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">DTC's Management</h2>
+        <p class="section-subtitle">Comprehensive traffic and bus fleet management for Delhi’s transport system</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-image feature1-img"></div>
+          <h3>Real-Time Bus Tracking</h3>
+          <p>Monitor DTC bus locations, passenger loads, and route adherence across Delhi.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-image feature2-img"></div>
+          <h3>Traffic Flow Optimization</h3>
+          <p>AI-powered traffic analysis optimizes routes, reduces delays, and improves experience.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-image feature3-img"></div>
+          <h3>Smart Route Planning</h3>
+          <p>Dynamic route adjustment based on real-time conditions, closures, and demand.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Technology -->
+  <section id="technology" class="technology">
+    <div class="container">
+      <div class="section-header"><h2 class="section-title">Cutting-edge Infrastructure</h2></div>
+      <div class="tech-grid">
+        <div class="tech-content">
+          <h3>DTC Fleet Intelligence</h3>
+          <ul class="tech-list">
+            <li>GPS-based tracking</li>
+            <li>Real-time passenger counting</li>
+            <li>Traffic signal priority</li>
+            <li>Route optimization algorithms</li>
+            <li>Emergency response integration</li>
+            <li>Passenger mobile Webapp connectivity</li>
+          </ul>
+        </div>
+        <div class="tech-visual">
+          <div class="tech-image"></div>
+          <h4>Central Control Hub</h4>
+          <p>Centralized monitoring system managing DTC bus fleet operations, traffic coordination, and passenger services across Delhi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Live Data -->
+  <section id="data" class="realtime-data">
+    <div class="container">
+      <div class="section-header"><h2 class="section-title">Live DTC Operations</h2></div>
+      <div class="data-grid">
+        <div class="data-card">
+          <div class="data-value">3,847</div>
+          <div class="data-label">Active Buses</div>
+        </div>
+        <div class="data-card">
+          <div class="data-value">1.2M</div>
+          <div class="data-label">Daily Passengers</div>
+        </div>
+        <div class="data-card">
+          <div class="data-value">18 min</div>
+          <div class="data-label">Avg. Wait Time</div>
+        </div>
+        <div class="data-card">
+          <div class="data-value">94%</div>
+          <div class="data-label">On-Time Performance</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Stats -->
+  <section class="stats-section">
+    <div class="container">
+      <h2 class="section-title">DTC Performance Metrics</h2>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <span class="number" data-target="32">0</span>
+          <span class="percent">%</span>
+          <div class="label">Reduced Travel Time</div>
+        </div>
+        <div class="stat-card">
+          <span class="number" data-target="45">0</span>
+          <span class="percent">%</span>
+          <div class="label">Improved Punctuality</div>
+        </div>
+        <div class="stat-card">
+          <span class="number" data-target="28">0</span>
+          <span class="percent">%</span>
+          <div class="label">Fuel Savings</div>
+        </div>
+        <div class="stat-card">
+          <span class="number" data-target="98">0</span>
+          <span class="percent">%</span>
+          <div class="label">System Uptime</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Chatbot Icon -->
+  <div class="chatbot-icon" id="chatbotBtn" aria-label="Open chatbot" title="Chat with us">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 2C6.48 2 2 6.48 2 12c0 1.54.36 3.04 1.05 4.35L2 22l5.65-1.05C9.96 21.64 11.46 22 13 22h7c1.1 0 2-.9 2-2V12c0-5.52-4.48-10-10-10zm0 18c-1.1 0-2.18-.25-3.15-.73L7 20l.73-1.85C7.25 17.18 7 16.1 7 15c0-2.76 2.24-5 5-5s5 2.24 5 5-2.24 5-5 5z"/>
+      <circle cx="9" cy="15" r="1"/>
+      <circle cx="12" cy="15" r="1"/>
+      <circle cx="15" cy="15" r="1"/>
+    </svg>
+  </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>DTC's GridPilot</h3>
+        <p>Delhi Transport Corporation's advanced traffic management and fleet optimization system powered by real-time data analytics for improved public transportation.</p>
+      </div>
+      <div class="footer-section">
+        <h4>DTC Services</h4>
+        <ul>
+          <li><a href="#fleet">Fleet Management</a></li>
+          <li><a href="#routes">Route Planning</a></li>
+          <li><a href="#tracking">Bus Tracking</a></li>
+          <li><a href="#analytics">Traffic Analytics</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Information</h4>
+        <ul>
+          <li><a href="#about">About DTC</a></li>
+          <li><a href="#news">Latest Updates</a></li>
+          <li><a href="#careers">Join DTC</a></li>
+          <li><a href="#tenders">Tenders</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact & Support</h4>
+        <ul>
+          <li><a href="#contact">Contact DTC</a></li>
+          <li><a href="#helpdesk">Help Desk</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+          <li><a href="#emergency">Emergency Support</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Delhi Transport Corporation's GridPilot | Advanced Public Transport Management</p>
+    </div>
+  </footer>
+  <script>
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+    // Animated counter using requestAnimationFrame for smoothness
+    function animateCountUp(el, target, duration = 1400) {
+      const startTime = performance.now();
+      function tick(now) {
+        const progress = Math.min((now - startTime) / duration, 1);
+        el.textContent = Math.floor(progress * target);
+        if (progress < 1) requestAnimationFrame(tick);
+        else el.textContent = target;
+      }
+      requestAnimationFrame(tick);
+    }
+    // Intersection Observer for stats section
+    const statsObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const nums = entry.target.querySelectorAll('.number');
+          nums.forEach(n => {
+            const target = parseInt(n.getAttribute('data-target'), 10) || 0;
+            animateCountUp(n, target);
+          });
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.4 });
+    const statsSection = document.querySelector('.stats-section');
+    if (statsSection) statsObserver.observe(statsSection);
+    // Navbar shadow effect on scroll
+    window.addEventListener('scroll', () => {
+      const navbar = document.querySelector('.navbar');
+      if (!navbar) return;
+      if (window.scrollY > 100) {
+        navbar.style.boxShadow = '0 8px 30px rgba(0,0,0,0.12)';
+      } else {
+        navbar.style.boxShadow = '0 2px 20px rgba(0,0,0,0.08)';
+      }
+    });
+    // Chatbot button action
+    const chatbotBtn = document.getElementById('chatbotBtn');
+    if (chatbotBtn) {
+      chatbotBtn.addEventListener('click', () => {
+        // opens chatbot in a new tab — replace with your chatbot URL or modal
+        window.open('chatbot.html', '_blank');
+      });
+    }
+  </script>
+</body>
+</html>
