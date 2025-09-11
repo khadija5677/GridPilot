@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driver Dashboard - Bus Schedule</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+            min-height: 100vh;
+        }
+
+        .navbar {
+            background: #1a1a1a;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        .nav-links { display: flex; gap: 2rem; list-style: none; }
+        .nav-links a { color: white; text-decoration: none; font-weight: 500; transition: color 0.3s ease; }
+        .nav-links a:hover { color: #ff6b35; }
+
+        .logout-btn {
+            background: #ff6b35; color: white; padding: 10px 20px;
+            border: none; border-radius: 6px; font-weight: 600;
+            cursor: pointer; transition: background 0.3s ease;
+        }
+        .logout-btn:hover { background: #e55a2b; }
+
+        .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+
+        .hero-section {
+            background: white; border-radius: 12px; padding: 60px 40px; margin-bottom: 40px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); text-align: center;
+        }
+        .hero-section h1 { font-size: 3rem; font-weight: 700; margin-bottom: 20px; color: #1a1a1a; }
+        .hero-section .highlight { color: #ff6b35; }
+        .hero-section p { font-size: 1.2rem; color: #666; margin-bottom: 30px; }
+
+        .driver-info {
+            background: white; border-radius: 12px; padding: 30px; margin-bottom: 40px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+        .driver-card { display: flex; align-items: center; gap: 25px; }
+        .driver-avatar {
+            width: 80px; height: 80px; border-radius: 50%;
+            background: linear-gradient(135deg, #ff6b35, #f7931e);
+            display: flex; align-items: center; justify-content: center;
+            color: white; font-size: 2rem; font-weight: bold;
+            box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+        }
+        .driver-details h2 { color: #1a1a1a; margin-bottom: 8px; font-size: 1.5rem; }
+        .driver-details p { color: #666; margin-bottom: 5px; font-size: 1rem; }
+
+        .schedule-section {
+            background: white; border-radius: 12px; padding: 40px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+        .schedule-header {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-bottom: 30px; flex-wrap: wrap; gap: 20px;
+        }
+        .schedule-header h2 { color: #1a1a1a; font-size: 2rem; font-weight: 700; }
+
+        .schedule-controls { display: flex; gap: 15px; align-items: center; flex-wrap: wrap; }
+        .btn {
+            padding: 12px 22px; border: none; border-radius: 8px; cursor: pointer;
+            font-size: 0.95rem; font-weight: 600; transition: all 0.3s ease;
+            text-decoration: none; display: inline-block;
+        }
+        .btn-primary { background: #ff6b35; color: white; }
+        .btn-primary:hover { background: #e55a2b; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(255, 107, 53, 0.3); }
+
+        .date-input {
+            padding: 14px 16px; border: 2px solid #e1e5e9; border-radius: 8px; font-size: 1rem;
+            transition: border-color 0.3s ease; background: white;
+        }
+        .date-input:focus { outline: none; border-color: #ff6b35; box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.1); }
+
+        .schedule-table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        .schedule-table th { background: #1a1a1a; color: white; padding: 16px; text-align: left; font-weight: 600; font-size: 0.9rem; }
+        .schedule-table td { padding: 16px; border-bottom: 1px solid #f1f3f4; }
+        .schedule-table tr:hover { background: #f8f9fa; }
+        .schedule-table tr:last-child td { border-bottom: none; }
+
+        .status-badge { padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; color: white; }
+        .status-active { background: #10b981; }
+        .status-upcoming { background: #f59e0b; }
+        .status-completed { background: #6b7280; }
+
+        .no-schedule { text-align: center; padding: 60px 20px; color: #666; font-size: 1.1rem; }
+
+        .current-date {
+            background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 25px;
+            text-align: center; font-weight: 600; color: #1a1a1a; border-left: 4px solid #ff6b35;
+        }
+
+        #map {
+      height: 100vh;
+      width: 100%;
+    }
+    .back-btn {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      z-index: 1000;
+      background: #ff6b35;
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    }
+    .back-btn:hover {
+      background: #e55a2b;
+    }
+
+    /* Footer */
+    .footer { background: #000; color: #fff; padding: 60px 2rem 40px; }
+    .footer-grid {
+      display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem;
+      max-width: 1400px; margin: auto;
+    }
+    .footer-brand h3 { color: #ff6542; font-size: 1.5rem; margin-bottom: 1rem; }
+    .footer-brand p { color: #ccc; }
+    .footer-section h4 { margin-bottom: 1rem; }
+    .footer-section a { color: #ccc; text-decoration: none; transition: .3s; }
+    .footer-section a:hover { color: #ff6542; }
+    .footer-bottom {
+      border-top: 1px solid #333; margin-top: 3rem; padding-top: 2rem;
+      text-align: center; color: #666;
+    }
+    /* Responsive */
+    @media (max-width: 768px) {
+      .nav-center,.nav-right { display: none; }
+      .hero-container, .tech-grid, .footer-grid { grid-template-columns: 1fr; text-align: center; }
+      .hero h1 { font-size: 2.5rem; }
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo" style="width:46px; height:46px; border-radius:8px;">
+                GridPilot
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#routes">Routes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="logout-btn">Log Out</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="hero-section">
+            <h1>Manage your routes — <span class="highlight">keep passengers on time</span></h1>
+            <p>Professional driver dashboard for efficient route management and schedule tracking</p>
+        </div>
+
+        <div class="driver-info">
+            <div class="driver-card">
+                <div class="driver-avatar">JD</div>
+                <div class="driver-details">
+                    <h2>Driver Name</h2>
+                    <p><strong>Bus Number:</strong> BUS-101</p>
+                    <p><strong>Route:</strong> City Center - Airport</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="schedule-section">
+            <div class="schedule-header">
+                <h2>Bus Schedule</h2>
+                <div class="schedule-controls">
+                    <button class="btn btn-primary" onclick="showTodaySchedule()">View Today's Schedule</button>
+                    <input type="date" class="date-input" id="dateInput" onchange="showScheduleForDate()">
+                </div>
+            </div>
+
+            <div class="current-date" id="currentDate"></div>
+            <div id="scheduleContainer">
+                <div class="no-schedule">
+                    <p>Click "View Today's Schedule" or select a date to view the bus schedule</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const weeklySchedules = {
+    "Monday": [
+        { time: "08:00 AM", stop: "Kashmiri Gate ISBT", status: "Completed" },
+        { time: "10:00 AM", stop: "Connaught Place", status: "Active" },
+        { time: "12:00 PM", stop: "India Gate", status: "Upcoming" }
+    ],
+    "Tuesday": [
+        { time: "08:30 AM", stop: "Dwarka Mor Metro Station", status: "Completed" },
+        { time: "11:00 AM", stop: "Janakpuri West", status: "Active" },
+        { time: "01:00 PM", stop: "AIIMS Hospital", status: "Upcoming" }
+    ],
+    "Wednesday": [
+        { time: "09:00 AM", stop: "Anand Vihar ISBT", status: "Completed" },
+        { time: "11:30 AM", stop: "Akshardham Temple", status: "Active" },
+        { time: "02:00 PM", stop: "Lajpat Nagar", status: "Upcoming" }
+    ],
+    "Thursday": [
+        { time: "09:00 AM", stop: "Rajiv Chowk", status: "Completed" },
+        { time: "11:30 AM", stop: "Karol Bagh", status: "Active" },
+        { time: "01:00 PM", stop: "Delhi University (North Campus)", status: "Upcoming" }
+    ],
+    "Friday": [
+        { time: "08:00 AM", stop: "Saket", status: "Completed" },
+        { time: "10:00 AM", stop: "Hauz Khas Village", status: "Active" },
+        { time: "12:00 PM", stop: "Lotus Temple", status: "Upcoming" }
+    ],
+    "Saturday": [
+        { time: "09:00 AM", stop: "Sarojini Nagar Market", status: "Completed" },
+        { time: "11:30 AM", stop: "Nehru Place", status: "Active" },
+        { time: "01:00 PM", stop: "Khan Market", status: "Upcoming" }
+    ],
+    "Sunday": [
+        { time: "10:00 AM", stop: "Red Fort", status: "Completed" },
+        { time: "12:00 PM", stop: "Jama Masjid", status: "Active" },
+        { time: "02:00 PM", stop: "Chandni Chowk", status: "Upcoming" }
+    ]
+};
+
+
+        function formatDate(date) {
+            return date.toISOString().split('T')[0];
+        }
+
+        function getWeekday(date) {
+            const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            return weekdays[date.getDay()];
+        }
+
+        function showTodaySchedule() {
+            const today = new Date();
+            displaySchedule(today);
+        }
+
+        function showScheduleForDate() {
+            const dateStr = document.getElementById("dateInput").value;
+            if (!dateStr) return;
+            const selectedDate = new Date(dateStr);
+            displaySchedule(selectedDate);
+        }
+
+        function displaySchedule(date) {
+            const container = document.getElementById("scheduleContainer");
+            const currentDateDiv = document.getElementById("currentDate");
+            const formattedDate = formatDate(date);
+            const weekday = getWeekday(date);
+
+            currentDateDiv.textContent = `Schedule for ${weekday}, ${formattedDate}`;
+
+            if (weeklySchedules[weekday]) {
+                let table = `
+                    <table class="schedule-table">
+                        <tr>
+                            <th>Time</th>
+                            <th>Stop</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                `;
+                weeklySchedules[weekday].forEach(item => {
+                    let statusClass = item.status === "Active" ? "status-active" :
+                                      item.status === "Upcoming" ? "status-upcoming" : "status-completed";
+                    table += `
+                        <tr>
+                            <td>${item.time}</td>
+                            <td>${item.stop}</td>
+                            <td><span class="status-badge ${statusClass}">${item.status}</span></td>
+                            <td><button class="btn btn-primary" onclick="goToMap('${item.stop}')">View Route</button></td>
+                        </tr>
+                    `;
+                });
+                table += "</table>";
+                container.innerHTML = table;
+            } else {
+                container.innerHTML = `<div class="no-schedule"><p>No schedule available for ${weekday}</p></div>`;
+            }
+        }
+
+        function goToMap(stopName) {
+            window.location.href = `map.html?stop=${encodeURIComponent(stopName)}`;
+        }
+    </script>
+
+    <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>DTC's GridPilot</h3>
+        <p>Delhi Transport Corporation's advanced traffic management and fleet optimization system powered by real-time data analytics for improved public transportation.</p>
+      </div>
+      <div class="footer-section">
+        <h4>DTC Services</h4>
+        <ul>
+          <li><a href="#fleet">Fleet Management</a></li>
+          <li><a href="#routes">Route Planning</a></li>
+          <li><a href="#tracking">Bus Tracking</a></li>
+          <li><a href="#analytics">Traffic Analytics</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Information</h4>
+        <ul>
+          <li><a href="#about">About DTC</a></li>
+          <li><a href="#news">Latest Updates</a></li>
+          <li><a href="#careers">Join DTC</a></li>
+          <li><a href="#tenders">Tenders</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact & Support</h4>
+        <ul>
+          <li><a href="#contact">Contact DTC</a></li>
+          <li><a href="#helpdesk">Help Desk</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+          <li><a href="#emergency">Emergency Support</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Delhi Transport Corporation's GridPilot | Advanced Public Transport Management</p>
+    </div>
+  </footer>
+</body>
+</html>

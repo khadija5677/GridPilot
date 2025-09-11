@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K-Ride Map - Route</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+    }
+    #map {
+      height: 100vh;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const stopName = params.get("stop") || "Connaught Place";
+
+    // Delhi CBS (Kashmiri Gate ISBT) coordinates
+    const delhiCBS = [28.6676, 77.2274];
+
+    // Initialize map centered at Delhi CBS
+    const map = L.map('map').setView(delhiCBS, 13);
+
+    // Tile layer
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Fetch stop coordinates from Nominatim API
+    fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(stopName + ", Delhi, India")}&countrycodes=in`)
+      .then(res => res.json())
+      .then(data => {
+        if (!data.length) {
+          alert("Stop not found: " + stopName);
+          return;
+        }
+
+        const stopLatLng = [parseFloat(data[0].lat), parseFloat(data[0].lon)];
+
+        // Marker for Delhi CBS
+        L.marker(delhiCBS).addTo(map).bindPopup("<b>Delhi CBS (Kashmiri Gate ISBT)</b>").openPopup();
+
+        // Marker for Stop
+        L.marker(stopLatLng).addTo(map).bindPopup(`<b>${stopName}</b>`);
+
+        // Draw shortest route
+        L.Routing.control({
+          waypoints: [
+            L.latLng(delhiCBS[0], delhiCBS[1]),
+            L.latLng(stopLatLng[0], stopLatLng[1])
+          ],
+          routeWhileDragging: false,
+          createMarker: () => null
+        }).addTo(map);
+
+        // Fit map to bounds
+        const bounds = L.latLngBounds([delhiCBS, stopLatLng]);
+        map.fitBounds(bounds, { padding: [50, 50] });
+      })
+      .catch(err => console.error(err));
+  </script>
+</body>
+</html>
