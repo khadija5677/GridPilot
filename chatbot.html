@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DTC AI Chatbot</title>
+
+  <!-- Tailwind -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <style>
+    body { background: #f9f9f9; overflow: hidden; }
+    .chat-scroll { max-height: 65vh; overflow-y: auto; }
+    .message-bubble { max-width: 75%; padding: 0.75rem 1rem; border-radius: 1rem; }
+    .user-bubble { background: black; color: white; margin-left: auto; }
+    .bot-bubble { background: white; border: 1px solid #eee; }
+    .small-muted { color: #666; font-size: 0.85rem; }
+
+    /* Floating background */
+    .bg-squares { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: -1; overflow: hidden; }
+    .square { position: absolute; bottom: -150px; width: 50px; height: 50px; background: rgba(0,0,0,0.4); animation: floatUp linear infinite; }
+    .square.coral { background: rgba(255, 80, 60, 0.6); }
+    .square.white { background: rgba(30,30,30,0.45); border: 1px solid rgba(0,0,0,0.4); }
+
+    @keyframes floatUp {
+      from { transform: translateY(0) rotate(0deg); opacity: 1; }
+      to { transform: translateY(-120vh) rotate(360deg); opacity: 0; }
+    }
+  </style>
+</head>
+<body class="antialiased">
+  <div class="bg-squares"></div>
+
+  <div class="min-h-screen flex items-start justify-center p-6 relative z-10">
+    <div class="w-full max-w-5xl bg-white shadow-xl rounded-2xl border border-slate-100 overflow-hidden relative">
+      <!-- Header -->
+      <div class="flex items-center justify-between px-6 py-4 border-b border-slate-100">
+        <div class="flex items-center gap-3">
+          <div class="w-12 h-12 rounded-xl bg-black flex items-center justify-center text-white font-bold">DTC</div>
+          <div>
+            <div class="text-lg font-bold">DTC Real-time AI Chatbot</div>
+            <div class="text-sm small-muted">Ask about routes, stops & schedules</div>
+          </div>
+        </div>
+        <button id="instructionsToggle" class="px-3 py-1 rounded-lg bg-coral text-white text-sm hover:opacity-90">How to use</button>
+      </div>
+
+      <div class="md:flex">
+        <!-- Sidebar -->
+        <aside class="hidden md:block md:w-72 border-r border-slate-100 p-4">
+          <div class="mb-4">
+            <div class="text-sm font-semibold">Quick Tips</div>
+            <ul class="mt-2 text-sm small-muted list-disc ml-5">
+              <li>Ask: "Next bus at [Stop Name]"</li>
+              <li>Ask: "Which routes go to [Stop Name]"</li>
+              <li>Ask: "Show schedule for [Route Name]"</li>
+              <li>Ask: "First bus at [Stop Name]"</li>
+              <li>Ask: "Last bus at [Stop Name]"</li>
+              <li>Ask: "Bus from [Source] to [Destination]"</li>
+            </ul>
+          </div>
+          <div>
+            <div class="text-sm font-semibold">Sample prompts</div>
+            <div class="mt-2 flex flex-col gap-2">
+              <button class="example-btn text-left px-3 py-2 rounded-lg hover:bg-slate-50 text-sm">Next bus at AIIMS</button>
+              <button class="example-btn text-left px-3 py-2 rounded-lg hover:bg-slate-50 text-sm">Which routes go to Kashmere Gate</button>
+              <button class="example-btn text-left px-3 py-2 rounded-lg hover:bg-slate-50 text-sm">Show schedule for PINK_Majlis Park to Shiv Vihar</button>
+              <button class="example-btn text-left px-3 py-2 rounded-lg hover:bg-slate-50 text-sm">First bus at Saket</button>
+              <button class="example-btn text-left px-3 py-2 rounded-lg hover:bg-slate-50 text-sm">Last bus at Dwarka</button>
+              <button class="example-btn text-left px-3 py-2 rounded-lg hover:bg-slate-50 text-sm">Bus from AIIMS to Kashmere Gate</button>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Main chat -->
+        <main class="flex-1 p-6">
+          <div id="chat" class="space-y-4 chat-scroll">
+            <div class="flex gap-3">
+              <div class="w-10 h-10 rounded-lg bg-coral flex items-center justify-center text-white font-bold">AI</div>
+              <div class="bot-bubble message-bubble shadow-sm">Hello 👋 I can help with Delhi bus routes, stops and timings. Try asking about a stop or a route.</div>
+            </div>
+          </div>
+            
+          <!-- Input -->
+          <form id="chatForm" class="mt-6 flex gap-3">
+            <input id="userInput" type="text" placeholder="Ask about a route, stop or timing..." class="flex-1 px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-coral" />
+            <button type="submit" class="px-4 py-3 rounded-xl bg-black text-white hover:opacity-90">Send</button>
+          </form>
+
+          <!-- Instructions -->
+          <div id="instructions" class="mt-6 p-4 border border-slate-100 rounded-xl hidden text-sm small-muted">
+            Supported queries:<br>
+            • Next bus at [Stop Name]<br>
+            • Which routes go to [Stop Name]<br>
+            • Show schedule for [Route Name]<br>
+            • First bus at [Stop Name]<br>
+            • Last bus at [Stop Name]<br>
+            • Bus from [Source] to [Destination]
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script>
+    const chatEl = document.getElementById('chat');
+    const form = document.getElementById('chatForm');
+    const input = document.getElementById('userInput');
+    const instructions = document.getElementById('instructions');
+    document.getElementById('instructionsToggle').onclick = () => instructions.classList.toggle('hidden');
+
+    let DTC_DATA = [];
+
+    fetch("routes.json")
+      .then(res => res.json())
+      .then(data => { DTC_DATA = data; })
+      .catch(err => console.error("Error loading dataset:", err));
+
+    // Floating squares
+    const bg = document.querySelector(".bg-squares");
+    for (let i=0;i<20;i++){
+      const sq=document.createElement("div");
+      sq.className="square " + (i%3===0?"coral":i%2===0?"white":"");
+      sq.style.left=Math.random()*100+"%";
+      sq.style.width=sq.style.height=30+Math.random()*40+"px";
+      sq.style.animationDuration=12+Math.random()*10+"s";
+      bg.appendChild(sq);
+    }
+
+    function addMessage(text, who="bot") {
+      const div=document.createElement("div");
+      div.className="flex gap-3 " + (who==="user"?"justify-end":"");
+      div.innerHTML= who==="user"
+        ? `<div class="user-bubble message-bubble shadow">${text}</div>`
+        : `<div class="w-10 h-10 rounded-lg bg-coral flex items-center justify-center text-white font-bold">AI</div>
+           <div class="bot-bubble message-bubble shadow whitespace-pre-line">${text}</div>`;
+      chatEl.appendChild(div);
+      chatEl.scrollTo({top:chatEl.scrollHeight,behavior:"smooth"});
+    }
+
+    function formatRouteInfo(r){
+      return `🚌 Route info:\n• Route: ${r.route_long_name}\n• Stop: ${r.stop_name}\n• Departure: ${r.departure_time}\n• Bus: ${r.bus_id}`;
+    }
+
+    form.onsubmit = e => {
+      e.preventDefault();
+      const q = input.value.trim(); if(!q) return;
+      addMessage(q,"user");
+      input.value="";
+      if (!DTC_DATA.length) { addMessage("⏳ Dataset is still loading."); return; }
+
+      const query = q.toLowerCase();
+
+      // Greetings
+      const greetings = ["hi","hello","hey","hii","good morning","good evening"];
+      if(greetings.some(g=>query === g)){ addMessage("👋 Hello! How can I help you with DTC routes, stops or timings?"); return; }
+
+      // Next bus
+      if(query.includes("next bus at") || query.includes("when is the next bus") || query.includes("bus timing at")){
+        const stop = query.replace(/next bus at|when is the next bus at|bus timing at/gi,"").trim();
+        const matches = DTC_DATA.filter(r => r.stop_name.toLowerCase().includes(stop));
+        if(matches.length){ addMessage(matches.slice(0,3).map(formatRouteInfo).join("\n\n")); }
+        else { addMessage(`❌ No upcoming buses found at "${stop}".`); }
+        return;
+      }
+
+      // Which routes
+      if(query.includes("which routes go to") || query.includes("what buses go to") || query.includes("which bus goes to")){
+        const stop = query.replace(/which routes go to|what buses go to|which bus goes to/gi,"").trim();
+        const matches = DTC_DATA.filter(r => r.stop_name.toLowerCase().includes(stop));
+        if(matches.length){ const routes = [...new Set(matches.map(m => m.route_long_name))]; addMessage(`🚌 Routes serving ${stop}:\n- ${routes.join("\n- ")}`); }
+        else { addMessage(`❌ No routes found for "${stop}".`); }
+        return;
+      }
+
+      // Schedule
+      if(query.includes("show schedule for") || query.includes("give me schedule for") || query.includes("show timings for")){
+        const route = query.replace(/show schedule for|give me schedule for|show timings for/gi,"").trim();
+        const matches = DTC_DATA.filter(r => r.route_long_name.toLowerCase().includes(route));
+        if(matches.length){ const schedule = matches.slice(0,5).map(r => `• ${r.stop_name} → ${r.departure_time}`).join("\n"); addMessage(`🕒 Schedule for ${matches[0].route_long_name}:\n${schedule}`); }
+        else { addMessage(`❌ No schedule found for "${route}".`); }
+        return;
+      }
+
+      // First bus
+      if(query.includes("first bus at")){
+        const stop = query.replace(/first bus at/gi,"").trim();
+        const matches = DTC_DATA.filter(r => r.stop_name.toLowerCase().includes(stop)).sort((a,b)=>new Date(a.departure_time)-new Date(b.departure_time));
+        if(matches.length){ addMessage(`🟢 First bus at ${stop}: ${matches[0].route_long_name} → ${matches[0].departure_time}`); }
+        else { addMessage(`❌ No first bus info found for "${stop}".`); }
+        return;
+      }
+
+      // Last bus
+      if(query.includes("last bus at")){
+        const stop = query.replace(/last bus at/gi,"").trim();
+        const matches = DTC_DATA.filter(r => r.stop_name.toLowerCase().includes(stop)).sort((a,b)=>new Date(b.departure_time)-new Date(a.departure_time));
+        if(matches.length){ addMessage(`🔴 Last bus at ${stop}: ${matches[0].route_long_name} → ${matches[0].departure_time}`); }
+        else { addMessage(`❌ No last bus info found for "${stop}".`); }
+        return;
+      }
+
+      // Source → Destination
+      if(query.includes("bus from")){
+        const parts = query.replace("bus from","").split("to").map(s=>s.trim());
+        if(parts.length===2){
+          const [source,dest] = parts;
+          const matches = DTC_DATA.filter(r => r.stop_name.toLowerCase().includes(source.toLowerCase()) || r.stop_name.toLowerCase().includes(dest.toLowerCase()));
+          if(matches.length){ const routes = [...new Set(matches.map(m => m.route_long_name))]; addMessage(`🚌 Buses from ${source} to ${dest} may be available on routes:\n- ${routes.join("\n- ")}`); }
+          else { addMessage(`❌ No direct bus found from ${source} to ${dest}.`); }
+        }
+        return;
+      }
+
+      // Fallback
+      addMessage("🤔 I couldn't understand. Try asking:\n• Next bus at [Stop]\n• Which routes go to [Stop]\n• Show schedule for [Route]\n• First bus at [Stop]\n• Last bus at [Stop]\n• Bus from [Source] to [Destination]");
+    };
+
+    document.querySelectorAll(".example-btn").forEach(btn=>{ btn.onclick=()=>{input.value=btn.innerText; input.focus();} });
+  </script>
+</body>
+</html>

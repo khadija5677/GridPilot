@@ -1,0 +1,4002 @@
+[
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Rajiv Chowk",
+    "departure_time":"2025-09-12 15:17:05",
+    "bus_id":"BUS0276",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Rajiv Chowk",
+    "departure_time":"2025-09-12 22:06:17",
+    "bus_id":"BUS0186",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Supreme Court",
+    "departure_time":"2025-09-12 19:40:26",
+    "bus_id":"BUS0230",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Rajiv Chowk",
+    "departure_time":"2025-09-12 17:08:33",
+    "bus_id":"BUS0160",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Mandi House",
+    "departure_time":"2025-09-12 19:48:12",
+    "bus_id":"BUS0069",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Indraprastha",
+    "departure_time":"2025-09-12 18:16:46",
+    "bus_id":"BUS0152",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Supreme Court",
+    "departure_time":"2025-09-12 15:44:52",
+    "bus_id":"BUS0241",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Indraprastha",
+    "departure_time":"2025-09-12 07:37:14",
+    "bus_id":"BUS0194",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Mandi House",
+    "departure_time":"2025-09-12 11:00:48",
+    "bus_id":"BUS0013",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Mandi House",
+    "departure_time":"2025-09-12 22:42:16",
+    "bus_id":"BUS0128",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Indraprastha",
+    "departure_time":"2025-09-12 08:45:54",
+    "bus_id":"BUS0194",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"RK Ashram Marg",
+    "departure_time":"2025-09-12 10:08:43",
+    "bus_id":"BUS0147",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"RK Ashram Marg",
+    "departure_time":"2025-09-12 07:20:05",
+    "bus_id":"BUS0081",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"RK Ashram Marg",
+    "departure_time":"2025-09-12 23:42:45",
+    "bus_id":"BUS0021",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Jhandewalan",
+    "departure_time":"2025-09-12 22:05:14",
+    "bus_id":"BUS0236",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Jhandewalan",
+    "departure_time":"2025-09-12 09:16:36",
+    "bus_id":"BUS0030",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Jhandewalan",
+    "departure_time":"2025-09-12 17:36:50",
+    "bus_id":"BUS0065",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Jhandewalan",
+    "departure_time":"2025-09-12 10:48:58",
+    "bus_id":"BUS0164",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Rajendra Place",
+    "departure_time":"2025-09-12 07:38:38",
+    "bus_id":"BUS0155",
+    "traffic_level":"High"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Rajendra Place",
+    "departure_time":"2025-09-12 21:29:38",
+    "bus_id":"BUS0243",
+    "traffic_level":"High"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Karol Bagh",
+    "departure_time":"2025-09-12 12:34:30",
+    "bus_id":"BUS0133",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Karol Bagh",
+    "departure_time":"2025-09-12 19:16:56",
+    "bus_id":"BUS0020",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Karol Bagh",
+    "departure_time":"2025-09-12 16:40:28",
+    "bus_id":"BUS0059",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Karol Bagh",
+    "departure_time":"2025-09-12 12:29:04",
+    "bus_id":"BUS0154",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Patel Nagar",
+    "departure_time":"2025-09-12 18:32:32",
+    "bus_id":"BUS0164",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Kirti Nagar",
+    "departure_time":"2025-09-12 21:09:43",
+    "bus_id":"BUS0059",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Tagore Garden",
+    "departure_time":"2025-09-12 22:02:35",
+    "bus_id":"BUS0089",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Tagore Garden",
+    "departure_time":null,
+    "bus_id":"BUS0236",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Subash Nagar",
+    "departure_time":"2025-09-12 18:32:17",
+    "bus_id":"BUS0070",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Tilak Nagar",
+    "departure_time":"2025-09-12 11:57:18",
+    "bus_id":"BUS0273",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Tilak Nagar",
+    "departure_time":"2025-09-12 07:11:58",
+    "bus_id":"BUS0135",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Tilak Nagar",
+    "departure_time":"2025-09-12 22:06:38",
+    "bus_id":"BUS0192",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Janak Puri West",
+    "departure_time":"2025-09-12 14:17:13",
+    "bus_id":"BUS0291",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Janak Puri West",
+    "departure_time":"2025-09-12 16:43:53",
+    "bus_id":"BUS0072",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Uttam Nagar East",
+    "departure_time":"2025-09-12 22:37:02",
+    "bus_id":"BUS0278",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Uttam Nagar East",
+    "departure_time":"2025-09-12 17:56:54",
+    "bus_id":"BUS0281",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Uttam Nagar East",
+    "departure_time":"2025-09-12 11:47:56",
+    "bus_id":"BUS0060",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Dwarka Sector - 9",
+    "departure_time":"2025-09-12 16:28:57",
+    "bus_id":"BUS0037",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Dwarka Sector - 9",
+    "departure_time":"2025-09-12 23:12:17",
+    "bus_id":"BUS0232",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Dwarka Sector - 9",
+    "departure_time":"2025-09-12 13:22:05",
+    "bus_id":"BUS0156",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Uttam Nagar West",
+    "departure_time":"2025-09-12 07:09:15",
+    "bus_id":"BUS0082",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Uttam Nagar West",
+    "departure_time":"2025-09-12 14:57:07",
+    "bus_id":"BUS0011",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Dwarka Sector - 11",
+    "departure_time":"2025-09-12 13:40:14",
+    "bus_id":"BUS0060",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Dwarka Sector - 11",
+    "departure_time":null,
+    "bus_id":"BUS0181",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Dwarka Sector - 11",
+    "departure_time":"2025-09-12 14:21:18",
+    "bus_id":"BUS0066",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Nawada",
+    "departure_time":"2025-09-12 10:41:43",
+    "bus_id":"BUS0240",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Nawada",
+    "departure_time":"2025-09-12 08:57:11",
+    "bus_id":"BUS0118",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Nawada",
+    "departure_time":"2025-09-12 13:02:59",
+    "bus_id":"BUS0257",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Nawada",
+    "departure_time":"2025-09-12 11:25:11",
+    "bus_id":"BUS0289",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Nawada",
+    "departure_time":"2025-09-12 18:34:47",
+    "bus_id":"BUS0132",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Dwarka Sector - 12",
+    "departure_time":"2025-09-12 18:47:06",
+    "bus_id":"BUS0299",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Dwarka Sector - 12",
+    "departure_time":"2025-09-12 20:52:04",
+    "bus_id":"BUS0139",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Dwarka Sector - 13",
+    "departure_time":"2025-09-12 13:59:22",
+    "bus_id":"BUS0296",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Dwarka Sector - 14",
+    "departure_time":"2025-09-12 13:00:22",
+    "bus_id":"BUS0209",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Dwarka",
+    "departure_time":"2025-09-12 19:23:45",
+    "bus_id":"BUS0120",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Dwarka",
+    "departure_time":"2025-09-12 13:42:49",
+    "bus_id":"BUS0270",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV_R",
+    "route_long_name":"BLUE_Vaishali to Dwarka Sector - 21",
+    "stop_name":"Dwarka",
+    "departure_time":"2025-09-12 11:41:33",
+    "bus_id":"BUS0061",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Dwarka Mor",
+    "departure_time":"2025-09-12 19:18:15",
+    "bus_id":"BUS0100",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Dwarka Mor",
+    "departure_time":"2025-09-12 17:06:33",
+    "bus_id":"BUS0240",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Dwarka Sector - 13",
+    "departure_time":"2025-09-12 11:27:59",
+    "bus_id":"BUS0198",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Dwarka Sector - 14",
+    "departure_time":"2025-09-12 16:13:37",
+    "bus_id":"BUS0211",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Dwarka Sector - 13",
+    "departure_time":"2025-09-12 16:35:01",
+    "bus_id":"BUS0223",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Dwarka",
+    "departure_time":"2025-09-12 13:14:30",
+    "bus_id":"BUS0034",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Dwarka Sector - 14",
+    "departure_time":"2025-09-12 21:17:13",
+    "bus_id":"BUS0007",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Dwarka Sector - 14",
+    "departure_time":"2025-09-12 15:32:33",
+    "bus_id":"BUS0168",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Dwarka",
+    "departure_time":"2025-09-12 17:53:30",
+    "bus_id":"BUS0142",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Dwarka Sector - 12",
+    "departure_time":"2025-09-12 11:31:25",
+    "bus_id":"BUS0012",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Dwarka Sector - 11",
+    "departure_time":"2025-09-12 15:32:01",
+    "bus_id":"BUS0221",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Nawada",
+    "departure_time":"2025-09-12 18:04:26",
+    "bus_id":"BUS0077",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Uttam Nagar West",
+    "departure_time":"2025-09-12 13:39:56",
+    "bus_id":"BUS0040",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Dwarka Sector - 9",
+    "departure_time":"2025-09-12 10:46:36",
+    "bus_id":"BUS0260",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Uttam Nagar East",
+    "departure_time":"2025-09-12 14:28:57",
+    "bus_id":"BUS0214",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Uttam Nagar East",
+    "departure_time":"2025-09-12 10:32:05",
+    "bus_id":"BUS0246",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Janak Puri West",
+    "departure_time":"2025-09-12 12:01:38",
+    "bus_id":"BUS0063",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Janak Puri West",
+    "departure_time":"2025-09-12 21:44:14",
+    "bus_id":"BUS0138",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Janak Puri East",
+    "departure_time":"2025-09-12 09:20:43",
+    "bus_id":"BUS0075",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Janak Puri East",
+    "departure_time":"2025-09-12 20:34:49",
+    "bus_id":"BUS0246",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Janak Puri East",
+    "departure_time":"2025-09-12 20:18:31",
+    "bus_id":"BUS0113",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Subash Nagar",
+    "departure_time":"2025-09-12 20:39:04",
+    "bus_id":"BUS0007",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Subash Nagar",
+    "departure_time":"2025-09-12 10:35:36",
+    "bus_id":"BUS0251",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Subash Nagar",
+    "departure_time":"2025-09-12 13:04:02",
+    "bus_id":"BUS0078",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Tagore Garden",
+    "departure_time":"2025-09-12 14:10:36",
+    "bus_id":"BUS0251",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Rajouri Garden",
+    "departure_time":"2025-09-12 10:23:34",
+    "bus_id":"BUS0179",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Rajouri Garden",
+    "departure_time":"2025-09-12 11:12:28",
+    "bus_id":"BUS0254",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Rajouri Garden",
+    "departure_time":"2025-09-12 10:18:08",
+    "bus_id":"BUS0089",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Moti Nagar",
+    "departure_time":"2025-09-12 13:53:47",
+    "bus_id":"BUS0057",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Moti Nagar",
+    "departure_time":"2025-09-12 18:37:21",
+    "bus_id":"BUS0188",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Moti Nagar",
+    "departure_time":"2025-09-12 09:06:29",
+    "bus_id":"BUS0075",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Kirti Nagar",
+    "departure_time":"2025-09-12 11:57:14",
+    "bus_id":"BUS0222",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Kirti Nagar",
+    "departure_time":"2025-09-12 17:27:18",
+    "bus_id":"BUS0015",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Patel Nagar",
+    "departure_time":"2025-09-12 19:01:01",
+    "bus_id":"BUS0233",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Patel Nagar",
+    "departure_time":"2025-09-12 18:39:17",
+    "bus_id":"BUS0023",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Patel Nagar",
+    "departure_time":"2025-09-12 09:08:25",
+    "bus_id":"BUS0183",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Mandi House",
+    "departure_time":"2025-09-12 10:52:03",
+    "bus_id":"BUS0247",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Jhandewalan",
+    "departure_time":"2025-09-12 09:31:31",
+    "bus_id":"BUS0187",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Jhandewalan",
+    "departure_time":"2025-09-12 16:34:37",
+    "bus_id":"BUS0020",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Barakhamba",
+    "departure_time":"2025-09-12 14:56:40",
+    "bus_id":"BUS0229",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Rajiv Chowk",
+    "departure_time":"2025-09-12 17:49:50",
+    "bus_id":"BUS0075",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Jhandewalan",
+    "departure_time":"2025-09-12 18:51:31",
+    "bus_id":"BUS0265",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Jhandewalan",
+    "departure_time":"2025-09-12 21:01:55",
+    "bus_id":"BUS0243",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Mandi House",
+    "departure_time":"2025-09-12 12:29:51",
+    "bus_id":"BUS0067",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Jhandewalan",
+    "departure_time":"2025-09-12 09:09:47",
+    "bus_id":"BUS0185",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Barakhamba",
+    "departure_time":"2025-09-12 21:20:26",
+    "bus_id":"BUS0260",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Jhandewalan",
+    "departure_time":"2025-09-12 07:24:37",
+    "bus_id":"BUS0139",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Mandi House",
+    "departure_time":"2025-09-12 16:56:15",
+    "bus_id":"BUS0186",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"RK Ashram Marg",
+    "departure_time":"2025-09-12 22:50:50",
+    "bus_id":"BUS0224",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Karol Bagh",
+    "departure_time":"2025-09-12 21:26:47",
+    "bus_id":"BUS0129",
+    "traffic_level":"High"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Mandi House",
+    "departure_time":"2025-09-12 19:50:19",
+    "bus_id":"BUS0252",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"RK Ashram Marg",
+    "departure_time":"2025-09-12 12:49:20",
+    "bus_id":"BUS0100",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DV",
+    "route_long_name":"BLUE_Dwarka Sector - 21 to Vaishali",
+    "stop_name":"Karol Bagh",
+    "departure_time":"2025-09-12 08:44:27",
+    "bus_id":"BUS0091",
+    "traffic_level":"High"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Krishna Nagar",
+    "departure_time":"2025-09-12 22:31:13",
+    "bus_id":"BUS0046",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"East Azad Nagar",
+    "departure_time":"2025-09-12 17:11:51",
+    "bus_id":"BUS0125",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Gokulpuri",
+    "departure_time":"2025-09-12 19:32:44",
+    "bus_id":"BUS0153",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"East Azad Nagar",
+    "departure_time":"2025-09-12 15:06:51",
+    "bus_id":"BUS0074",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Jafrabad",
+    "departure_time":"2025-09-12 21:21:48",
+    "bus_id":"BUS0255",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"East Azad Nagar",
+    "departure_time":"2025-09-12 13:34:09",
+    "bus_id":"BUS0163",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Krishna Nagar",
+    "departure_time":"2025-09-12 18:42:25",
+    "bus_id":"BUS0042",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Jafrabad",
+    "departure_time":"2025-09-12 09:02:51",
+    "bus_id":"BUS0175",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Welcome",
+    "departure_time":"2025-09-12 22:20:37",
+    "bus_id":"BUS0087",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Welcome",
+    "departure_time":"2025-09-12 22:31:01",
+    "bus_id":"BUS0014",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Welcome",
+    "departure_time":null,
+    "bus_id":"BUS0141",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"IP Extension",
+    "departure_time":"2025-09-12 23:27:05",
+    "bus_id":"BUS0032",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Karkarduma Court",
+    "departure_time":"2025-09-12 14:18:41",
+    "bus_id":"BUS0014",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Karkarduma Court",
+    "departure_time":"2025-09-12 22:02:56",
+    "bus_id":"BUS0044",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Karkarduma Court",
+    "departure_time":"2025-09-12 15:27:26",
+    "bus_id":"BUS0080",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Mandawali - West Vinod Nagar",
+    "departure_time":"2025-09-12 17:38:35",
+    "bus_id":"BUS0095",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Mandawali - West Vinod Nagar",
+    "departure_time":"2025-09-12 20:32:20",
+    "bus_id":"BUS0058",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"East Vinod Nagar - Mayur Vihar-II",
+    "departure_time":"2025-09-12 19:32:38",
+    "bus_id":"BUS0222",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Mayur Vihar Pocket 1",
+    "departure_time":"2025-09-12 12:38:24",
+    "bus_id":"BUS0135",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Mayur Vihar Pocket 1",
+    "departure_time":"2025-09-12 20:14:24",
+    "bus_id":"BUS0009",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Mayur Vihar Pocket 1",
+    "departure_time":"2025-09-12 17:56:03",
+    "bus_id":"BUS0047",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Sarai Kale Khan - Nizamuddin",
+    "departure_time":"2025-09-12 13:13:48",
+    "bus_id":"BUS0084",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Sarai Kale Khan - Nizamuddin",
+    "departure_time":"2025-09-12 23:09:15",
+    "bus_id":"BUS0033",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Sarai Kale Khan - Nizamuddin",
+    "departure_time":"2025-09-12 09:34:21",
+    "bus_id":"BUS0140",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Vinobapuri",
+    "departure_time":"2025-09-12 22:50:11",
+    "bus_id":"BUS0054",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Vinobapuri",
+    "departure_time":"2025-09-12 09:27:47",
+    "bus_id":"BUS0067",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Vinobapuri",
+    "departure_time":"2025-09-12 07:59:17",
+    "bus_id":"BUS0193",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Vinobapuri",
+    "departure_time":"2025-09-12 23:27:41",
+    "bus_id":"BUS0094",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Lajpat Nagar",
+    "departure_time":"2025-09-12 19:05:20",
+    "bus_id":"BUS0249",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"South Extension",
+    "departure_time":"2025-09-12 07:46:37",
+    "bus_id":"BUS0202",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Bhikaji Cama Place",
+    "departure_time":"2025-09-12 17:28:18",
+    "bus_id":"BUS0155",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Durgabai Deshmukh South Campus",
+    "departure_time":"2025-09-12 09:08:17",
+    "bus_id":"BUS0044",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Bhikaji Cama Place",
+    "departure_time":"2025-09-12 22:30:00",
+    "bus_id":"BUS0159",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Bhikaji Cama Place",
+    "departure_time":"2025-09-12 12:59:33",
+    "bus_id":"BUS0210",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Durgabai Deshmukh South Campus",
+    "departure_time":"2025-09-12 09:34:17",
+    "bus_id":"BUS0286",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Bhikaji Cama Place",
+    "departure_time":"2025-09-12 23:45:00",
+    "bus_id":"BUS0217",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Sir Vishweshwaraiah Moti Bagh",
+    "departure_time":"2025-09-12 23:17:05",
+    "bus_id":"BUS0185",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS",
+    "route_long_name":"PINK_Majlis Park to Shiv Vihar",
+    "stop_name":"Bhikaji Cama Place",
+    "departure_time":"2025-09-12 18:07:51",
+    "bus_id":"BUS0038",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Vidhan Sabha",
+    "departure_time":"2025-09-12 17:23:03",
+    "bus_id":"BUS0257",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Vishwavidyalaya",
+    "departure_time":"2025-09-12 13:52:14",
+    "bus_id":"BUS0132",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Vishwavidyalaya",
+    "departure_time":"2025-09-12 11:35:29",
+    "bus_id":"BUS0110",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Vishwavidyalaya",
+    "departure_time":"2025-09-12 23:41:11",
+    "bus_id":"BUS0053",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Vishwavidyalaya",
+    "departure_time":"2025-09-12 06:09:32",
+    "bus_id":"BUS0208",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Vidhan Sabha",
+    "departure_time":"2025-09-12 06:32:06",
+    "bus_id":"BUS0043",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Civil Lines",
+    "departure_time":"2025-09-12 16:01:13",
+    "bus_id":"BUS0242",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Civil Lines",
+    "departure_time":"2025-09-12 10:11:40",
+    "bus_id":"BUS0294",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Civil Lines",
+    "departure_time":"2025-09-12 22:41:55",
+    "bus_id":"BUS0065",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Civil Lines",
+    "departure_time":"2025-09-12 17:24:53",
+    "bus_id":"BUS0003",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Kashmere Gate",
+    "departure_time":"2025-09-12 14:35:03",
+    "bus_id":"BUS0297",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Chandni Chowk",
+    "departure_time":"2025-09-12 20:28:26",
+    "bus_id":"BUS0168",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Chandni Chowk",
+    "departure_time":"2025-09-12 15:31:01",
+    "bus_id":"BUS0131",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"New Delhi",
+    "departure_time":"2025-09-12 10:11:49",
+    "bus_id":"BUS0235",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Rajiv Chowk",
+    "departure_time":"2025-09-12 11:47:39",
+    "bus_id":"BUS0198",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Rajiv Chowk",
+    "departure_time":"2025-09-12 20:50:35",
+    "bus_id":"BUS0291",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Central Secretariat",
+    "departure_time":"2025-09-12 12:48:16",
+    "bus_id":"BUS0143",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Central Secretariat",
+    "departure_time":"2025-09-12 20:40:57",
+    "bus_id":"BUS0004",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Udyog Bhawan",
+    "departure_time":"2025-09-12 19:34:57",
+    "bus_id":"BUS0032",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Lok Kalyan Marg",
+    "departure_time":"2025-09-12 16:42:20",
+    "bus_id":"BUS0252",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Lok Kalyan Marg",
+    "departure_time":"2025-09-12 16:29:47",
+    "bus_id":"BUS0098",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Lok Kalyan Marg",
+    "departure_time":null,
+    "bus_id":"BUS0063",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Jorbagh",
+    "departure_time":"2025-09-12 14:05:05",
+    "bus_id":"BUS0240",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Jorbagh",
+    "departure_time":"2025-09-12 06:14:01",
+    "bus_id":"BUS0178",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Dilli Haat - INA",
+    "departure_time":"2025-09-12 15:43:01",
+    "bus_id":"BUS0211",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Dilli Haat - INA",
+    "departure_time":"2025-09-12 14:15:10",
+    "bus_id":"BUS0074",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Dilli Haat - INA",
+    "departure_time":"2025-09-12 19:22:34",
+    "bus_id":"BUS0100",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Green Park",
+    "departure_time":"2025-09-12 08:46:17",
+    "bus_id":"BUS0250",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Green Park",
+    "departure_time":"2025-09-12 05:37:43",
+    "bus_id":"BUS0012",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Green Park",
+    "departure_time":"2025-09-12 11:53:45",
+    "bus_id":"BUS0038",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Hauz Khas",
+    "departure_time":"2025-09-12 21:21:43",
+    "bus_id":"BUS0168",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Qutab Minar",
+    "departure_time":"2025-09-12 15:42:25",
+    "bus_id":"BUS0072",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Malviya Nagar",
+    "departure_time":"2025-09-12 11:47:35",
+    "bus_id":"BUS0048",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Saket",
+    "departure_time":"2025-09-12 21:36:05",
+    "bus_id":"BUS0126",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV",
+    "route_long_name":"YELLOW_Qutab Minar to Vishwavidyalaya",
+    "stop_name":"Malviya Nagar",
+    "departure_time":"2025-09-12 09:44:15",
+    "bus_id":"BUS0233",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Jafrabad",
+    "departure_time":"2025-09-12 22:10:19",
+    "bus_id":"BUS0091",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Shiv Vihar",
+    "departure_time":"2025-09-12 06:19:05",
+    "bus_id":"BUS0241",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Shiv Vihar",
+    "departure_time":"2025-09-12 22:31:14",
+    "bus_id":"BUS0052",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Jafrabad",
+    "departure_time":"2025-09-12 11:07:16",
+    "bus_id":"BUS0255",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Shiv Vihar",
+    "departure_time":"2025-09-12 16:45:47",
+    "bus_id":"BUS0079",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Shiv Vihar",
+    "departure_time":"2025-09-12 19:50:56",
+    "bus_id":"BUS0004",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Maujpur - Babarpur",
+    "departure_time":"2025-09-12 14:29:32",
+    "bus_id":"BUS0258",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Maujpur - Babarpur",
+    "departure_time":"2025-09-12 20:40:02",
+    "bus_id":"BUS0025",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Gokulpuri",
+    "departure_time":"2025-09-12 09:43:56",
+    "bus_id":"BUS0261",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Maujpur - Babarpur",
+    "departure_time":"2025-09-12 22:44:59",
+    "bus_id":"BUS0245",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"East Azad Nagar",
+    "departure_time":"2025-09-12 18:08:07",
+    "bus_id":"BUS0076",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"East Azad Nagar",
+    "departure_time":"2025-09-12 21:04:55",
+    "bus_id":"BUS0231",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Krishna Nagar",
+    "departure_time":"2025-09-12 19:59:27",
+    "bus_id":"BUS0214",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Krishna Nagar",
+    "departure_time":"2025-09-12 21:28:54",
+    "bus_id":"BUS0257",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Krishna Nagar",
+    "departure_time":"2025-09-12 07:59:15",
+    "bus_id":"BUS0296",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Anand Vihar",
+    "departure_time":"2025-09-12 18:27:59",
+    "bus_id":"BUS0210",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Anand Vihar",
+    "departure_time":"2025-09-12 23:22:29",
+    "bus_id":"BUS0281",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Karkarduma",
+    "departure_time":"2025-09-12 19:12:34",
+    "bus_id":"BUS0079",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Karkarduma Court",
+    "departure_time":"2025-09-12 08:52:32",
+    "bus_id":"BUS0074",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"IP Extension",
+    "departure_time":"2025-09-12 12:09:17",
+    "bus_id":"BUS0037",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"East Vinod Nagar - Mayur Vihar-II",
+    "departure_time":"2025-09-12 13:55:50",
+    "bus_id":"BUS0205",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"East Vinod Nagar - Mayur Vihar-II",
+    "departure_time":"2025-09-12 14:08:20",
+    "bus_id":"BUS0010",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Mayur Vihar Pocket 1",
+    "departure_time":"2025-09-12 19:50:40",
+    "bus_id":"BUS0193",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Mayur Vihar Pocket 1",
+    "departure_time":"2025-09-12 19:09:04",
+    "bus_id":"BUS0268",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Mayur Vihar-I",
+    "departure_time":"2025-09-12 22:55:48",
+    "bus_id":"BUS0284",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Mayur Vihar-I",
+    "departure_time":"2025-09-12 16:45:21",
+    "bus_id":"BUS0196",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Ashram",
+    "departure_time":"2025-09-12 15:20:06",
+    "bus_id":"BUS0037",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Dilli Haat - INA",
+    "departure_time":"2025-09-12 19:57:53",
+    "bus_id":"BUS0103",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Dilli Haat - INA",
+    "departure_time":"2025-09-12 14:11:11",
+    "bus_id":"BUS0280",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Vinobapuri",
+    "departure_time":"2025-09-12 10:49:41",
+    "bus_id":"BUS0229",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Vinobapuri",
+    "departure_time":"2025-09-12 09:05:41",
+    "bus_id":"BUS0178",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"South Extension",
+    "departure_time":"2025-09-12 11:22:06",
+    "bus_id":"BUS0082",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"P_MS_R",
+    "route_long_name":"PINK_Shiv Vihar to Majlis Park",
+    "stop_name":"Vinobapuri",
+    "departure_time":"2025-09-12 21:32:53",
+    "bus_id":"BUS0272",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Vidhan Sabha",
+    "departure_time":"2025-09-12 15:14:10",
+    "bus_id":"BUS0106",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Vidhan Sabha",
+    "departure_time":"2025-09-12 21:59:03",
+    "bus_id":"BUS0085",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Vidhan Sabha",
+    "departure_time":"2025-09-12 14:15:36",
+    "bus_id":"BUS0105",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Vishwavidyalaya",
+    "departure_time":"2025-09-12 20:52:16",
+    "bus_id":"BUS0284",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Vidhan Sabha",
+    "departure_time":"2025-09-12 08:23:55",
+    "bus_id":"BUS0102",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Vishwavidyalaya",
+    "departure_time":"2025-09-12 12:24:18",
+    "bus_id":"BUS0194",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Vishwavidyalaya",
+    "departure_time":"2025-09-12 15:07:27",
+    "bus_id":"BUS0022",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Vishwavidyalaya",
+    "departure_time":"2025-09-12 19:08:40",
+    "bus_id":"BUS0168",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Kashmere Gate",
+    "departure_time":"2025-09-12 14:03:43",
+    "bus_id":"BUS0250",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Kashmere Gate",
+    "departure_time":"2025-09-12 22:58:17",
+    "bus_id":"BUS0072",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Chandni Chowk",
+    "departure_time":"2025-09-12 09:30:34",
+    "bus_id":"BUS0030",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Chandni Chowk",
+    "departure_time":"2025-09-12 10:34:42",
+    "bus_id":"BUS0296",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Chawri Bazar",
+    "departure_time":"2025-09-12 17:17:51",
+    "bus_id":"BUS0300",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Chawri Bazar",
+    "departure_time":"2025-09-12 14:33:57",
+    "bus_id":"BUS0295",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Chawri Bazar",
+    "departure_time":"2025-09-12 19:50:47",
+    "bus_id":"BUS0160",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Chawri Bazar",
+    "departure_time":"2025-09-12 14:17:13",
+    "bus_id":"BUS0101",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Chawri Bazar",
+    "departure_time":"2025-09-12 07:32:20",
+    "bus_id":"BUS0134",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Chawri Bazar",
+    "departure_time":"2025-09-12 16:10:10",
+    "bus_id":"BUS0014",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Chawri Bazar",
+    "departure_time":"2025-09-12 23:20:09",
+    "bus_id":"BUS0080",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"New Delhi",
+    "departure_time":"2025-09-12 07:26:03",
+    "bus_id":"BUS0119",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"New Delhi",
+    "departure_time":"2025-09-12 07:38:36",
+    "bus_id":"BUS0005",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Rajiv Chowk",
+    "departure_time":"2025-09-12 22:59:58",
+    "bus_id":"BUS0263",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Patel Chowk",
+    "departure_time":"2025-09-12 11:48:50",
+    "bus_id":"BUS0075",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Udyog Bhawan",
+    "departure_time":"2025-09-12 08:17:17",
+    "bus_id":"BUS0006",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Dilli Haat - INA",
+    "departure_time":"2025-09-12 23:30:43",
+    "bus_id":"BUS0105",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"AIIMS",
+    "departure_time":"2025-09-12 06:34:00",
+    "bus_id":"BUS0131",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Dilli Haat - INA",
+    "departure_time":"2025-09-12 07:34:32",
+    "bus_id":"BUS0172",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Jorbagh",
+    "departure_time":"2025-09-12 08:01:21",
+    "bus_id":"BUS0196",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Dilli Haat - INA",
+    "departure_time":"2025-09-12 11:50:26",
+    "bus_id":"BUS0196",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Jorbagh",
+    "departure_time":"2025-09-12 21:39:29",
+    "bus_id":"BUS0002",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Jorbagh",
+    "departure_time":"2025-09-12 08:22:16",
+    "bus_id":"BUS0162",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"AIIMS",
+    "departure_time":"2025-09-12 11:52:39",
+    "bus_id":"BUS0184",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_QV_R",
+    "route_long_name":"YELLOW_Vishwavidyalaya to Qutab Minar",
+    "stop_name":"Central Secretariat",
+    "departure_time":"2025-09-12 22:52:07",
+    "bus_id":"BUS0131",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Kalindi Kunj",
+    "departure_time":"2025-09-12 11:58:50",
+    "bus_id":"BUS0217",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Okhla Bird Sanctuary",
+    "departure_time":"2025-09-12 14:09:40",
+    "bus_id":"BUS0128",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Kalindi Kunj",
+    "departure_time":"2025-09-12 08:56:25",
+    "bus_id":"BUS0180",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Botanical Garden",
+    "departure_time":"2025-09-12 22:59:52",
+    "bus_id":"BUS0134",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Kalindi Kunj",
+    "departure_time":null,
+    "bus_id":"BUS0204",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Okhla Vihar",
+    "departure_time":"2025-09-12 22:19:12",
+    "bus_id":"BUS0257",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Okhla Vihar",
+    "departure_time":"2025-09-12 23:13:12",
+    "bus_id":"BUS0260",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Okhla Vihar",
+    "departure_time":"2025-09-12 20:46:37",
+    "bus_id":"BUS0132",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Okhla Vihar",
+    "departure_time":"2025-09-12 21:22:47",
+    "bus_id":"BUS0023",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Jamia Millia Islamia",
+    "departure_time":"2025-09-12 20:49:00",
+    "bus_id":"BUS0272",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Jamia Millia Islamia",
+    "departure_time":"2025-09-12 09:19:20",
+    "bus_id":"BUS0089",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Sukhdev Vihar",
+    "departure_time":"2025-09-12 21:17:07",
+    "bus_id":"BUS0200",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Okhla NSIC",
+    "departure_time":"2025-09-12 08:07:29",
+    "bus_id":"BUS0251",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Okhla NSIC",
+    "departure_time":"2025-09-12 18:54:59",
+    "bus_id":"BUS0057",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Okhla NSIC",
+    "departure_time":"2025-09-12 10:46:49",
+    "bus_id":"BUS0106",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Okhla NSIC",
+    "departure_time":"2025-09-12 16:13:19",
+    "bus_id":"BUS0090",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Okhla NSIC",
+    "departure_time":"2025-09-12 18:29:09",
+    "bus_id":"BUS0106",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Okhla NSIC",
+    "departure_time":"2025-09-12 21:24:49",
+    "bus_id":"BUS0032",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Okhla NSIC",
+    "departure_time":"2025-09-12 23:25:09",
+    "bus_id":"BUS0187",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Kalkaji Mandir",
+    "departure_time":"2025-09-12 10:23:52",
+    "bus_id":"BUS0049",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Kalkaji Mandir",
+    "departure_time":"2025-09-12 20:05:02",
+    "bus_id":"BUS0159",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Greater Kailash",
+    "departure_time":"2025-09-12 17:46:07",
+    "bus_id":"BUS0223",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Greater Kailash",
+    "departure_time":"2025-09-12 19:34:37",
+    "bus_id":"BUS0208",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Hauz Khas",
+    "departure_time":"2025-09-12 18:56:39",
+    "bus_id":"BUS0084",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"IIT",
+    "departure_time":"2025-09-12 07:37:55",
+    "bus_id":"BUS0206",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Panchsheel Park",
+    "departure_time":"2025-09-12 20:47:58",
+    "bus_id":"BUS0092",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"IIT",
+    "departure_time":"2025-09-12 19:40:55",
+    "bus_id":"BUS0166",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"IIT",
+    "departure_time":"2025-09-12 15:16:45",
+    "bus_id":"BUS0166",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"RK Puram",
+    "departure_time":"2025-09-12 14:00:22",
+    "bus_id":"BUS0062",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"M_JB",
+    "route_long_name":"MAGENTA_Janak Puri West to Botanical Garden",
+    "stop_name":"Panchsheel Park",
+    "departure_time":"2025-09-12 13:47:18",
+    "bus_id":"BUS0057",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Dilli Haat - INA",
+    "departure_time":"2025-09-12 16:45:17",
+    "bus_id":"BUS0186",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Hauz Khas",
+    "departure_time":"2025-09-12 07:41:34",
+    "bus_id":"BUS0264",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Hauz Khas",
+    "departure_time":"2025-09-12 18:51:02",
+    "bus_id":"BUS0062",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Dilli Haat - INA",
+    "departure_time":"2025-09-12 21:41:01",
+    "bus_id":"BUS0117",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Dilli Haat - INA",
+    "departure_time":"2025-09-12 13:24:37",
+    "bus_id":"BUS0164",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Dilli Haat - INA",
+    "departure_time":"2025-09-12 16:28:05",
+    "bus_id":"BUS0194",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Dilli Haat - INA",
+    "departure_time":"2025-09-12 08:59:09",
+    "bus_id":"BUS0064",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Dilli Haat - INA",
+    "departure_time":"2025-09-12 06:53:49",
+    "bus_id":"BUS0038",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Dilli Haat - INA",
+    "departure_time":"2025-09-12 23:33:17",
+    "bus_id":"BUS0036",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Green Park",
+    "departure_time":"2025-09-12 17:41:26",
+    "bus_id":"BUS0289",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Hauz Khas",
+    "departure_time":"2025-09-12 13:37:58",
+    "bus_id":"BUS0097",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"AIIMS",
+    "departure_time":"2025-09-12 09:21:06",
+    "bus_id":"BUS0038",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Malviya Nagar",
+    "departure_time":"2025-09-12 08:47:44",
+    "bus_id":"BUS0205",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Jorbagh",
+    "departure_time":"2025-09-12 08:51:45",
+    "bus_id":"BUS0063",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Lok Kalyan Marg",
+    "departure_time":"2025-09-12 19:37:41",
+    "bus_id":"BUS0251",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Lok Kalyan Marg",
+    "departure_time":"2025-09-12 12:11:33",
+    "bus_id":"BUS0045",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Lok Kalyan Marg",
+    "departure_time":"2025-09-12 18:23:41",
+    "bus_id":"BUS0207",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Udyog Bhawan",
+    "departure_time":"2025-09-12 11:14:46",
+    "bus_id":"BUS0297",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Chawri Bazar",
+    "departure_time":"2025-09-12 16:20:37",
+    "bus_id":"BUS0129",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Patel Chowk",
+    "departure_time":"2025-09-12 18:07:17",
+    "bus_id":"BUS0061",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Chandni Chowk",
+    "departure_time":"2025-09-12 12:04:53",
+    "bus_id":"BUS0217",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Patel Chowk",
+    "departure_time":"2025-09-12 14:10:29",
+    "bus_id":"BUS0213",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Rajiv Chowk",
+    "departure_time":"2025-09-12 08:59:56",
+    "bus_id":"BUS0230",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"New Delhi",
+    "departure_time":"2025-09-12 21:14:18",
+    "bus_id":"BUS0236",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Kashmere Gate",
+    "departure_time":"2025-09-12 06:58:25",
+    "bus_id":"BUS0281",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Patel Chowk",
+    "departure_time":"2025-09-12 13:13:09",
+    "bus_id":"BUS0282",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Patel Chowk",
+    "departure_time":"2025-09-12 17:31:09",
+    "bus_id":"BUS0160",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Kashmere Gate",
+    "departure_time":"2025-09-12 17:34:57",
+    "bus_id":"BUS0280",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HS_R",
+    "route_long_name":"YELLOW_Samaypur Badli to Huda City Centre",
+    "stop_name":"Patel Chowk",
+    "departure_time":"2025-09-12 07:39:41",
+    "bus_id":"BUS0172",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Mandi House",
+    "departure_time":"2025-09-12 23:11:13",
+    "bus_id":"BUS0186",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Kashmere Gate",
+    "departure_time":"2025-09-12 08:51:17",
+    "bus_id":"BUS0298",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Kashmere Gate",
+    "departure_time":"2025-09-12 20:22:17",
+    "bus_id":"BUS0273",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Mandi House",
+    "departure_time":"2025-09-12 20:10:13",
+    "bus_id":"BUS0177",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"ITO",
+    "departure_time":"2025-09-12 09:46:42",
+    "bus_id":"BUS0052",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Central Secretariat",
+    "departure_time":"2025-09-12 11:48:27",
+    "bus_id":"BUS0166",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Central Secretariat",
+    "departure_time":"2025-09-12 20:45:39",
+    "bus_id":"BUS0047",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Central Secretariat",
+    "departure_time":"2025-09-12 18:50:03",
+    "bus_id":"BUS0130",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Khan Market",
+    "departure_time":"2025-09-12 07:26:59",
+    "bus_id":"BUS0025",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Khan Market",
+    "departure_time":"2025-09-12 17:51:59",
+    "bus_id":"BUS0300",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Jawahar Lal Nehru Stadium",
+    "departure_time":"2025-09-12 17:40:02",
+    "bus_id":"BUS0292",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Jawahar Lal Nehru Stadium",
+    "departure_time":"2025-09-12 07:06:02",
+    "bus_id":"BUS0281",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Jangpura",
+    "departure_time":"2025-09-12 09:36:47",
+    "bus_id":"BUS0171",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Lajpat Nagar",
+    "departure_time":"2025-09-12 16:40:38",
+    "bus_id":"BUS0084",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Moolchand",
+    "departure_time":"2025-09-12 19:29:54",
+    "bus_id":"BUS0028",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Moolchand",
+    "departure_time":"2025-09-12 20:03:54",
+    "bus_id":"BUS0279",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Moolchand",
+    "departure_time":"2025-09-12 16:02:18",
+    "bus_id":"BUS0125",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Moolchand",
+    "departure_time":"2025-09-12 22:51:18",
+    "bus_id":"BUS0192",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Jasola-Apollo",
+    "departure_time":"2025-09-12 17:59:12",
+    "bus_id":"BUS0031",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Govind Puri",
+    "departure_time":"2025-09-12 20:14:21",
+    "bus_id":"BUS0026",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Harkesh Nagar Okhla",
+    "departure_time":"2025-09-12 22:56:06",
+    "bus_id":"BUS0201",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Govind Puri",
+    "departure_time":"2025-09-12 13:19:21",
+    "bus_id":"BUS0104",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Nehru Place",
+    "departure_time":"2025-09-12 22:09:58",
+    "bus_id":"BUS0038",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Harkesh Nagar Okhla",
+    "departure_time":"2025-09-12 14:28:06",
+    "bus_id":"BUS0086",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Kalkaji Mandir",
+    "departure_time":"2025-09-12 15:00:39",
+    "bus_id":"BUS0025",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Harkesh Nagar Okhla",
+    "departure_time":"2025-09-12 19:43:54",
+    "bus_id":"BUS0136",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KR_R",
+    "route_long_name":"VIOLET_Raja Nahar Singh to Kashmere Gate",
+    "stop_name":"Kailash Colony",
+    "departure_time":"2025-09-12 10:16:25",
+    "bus_id":"BUS0084",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"Gurudronacharya",
+    "departure_time":"2025-09-12 13:46:02",
+    "bus_id":"BUS0036",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"Gurudronacharya",
+    "departure_time":"2025-09-12 11:53:18",
+    "bus_id":"BUS0193",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"IFFCO Chowk",
+    "departure_time":"2025-09-12 12:21:25",
+    "bus_id":"BUS0244",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"IFFCO Chowk",
+    "departure_time":"2025-09-12 16:59:29",
+    "bus_id":"BUS0272",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"MG Road",
+    "departure_time":"2025-09-12 21:39:33",
+    "bus_id":"BUS0163",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"Huda City Centre",
+    "departure_time":"2025-09-12 11:58:33",
+    "bus_id":"BUS0095",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"Huda City Centre",
+    "departure_time":"2025-09-12 22:40:29",
+    "bus_id":"BUS0101",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"Huda City Centre",
+    "departure_time":"2025-09-12 15:39:45",
+    "bus_id":"BUS0269",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"MG Road",
+    "departure_time":"2025-09-12 18:36:41",
+    "bus_id":"BUS0175",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"IFFCO Chowk",
+    "departure_time":"2025-09-12 07:29:41",
+    "bus_id":"BUS0093",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"Sikanderpur",
+    "departure_time":"2025-09-12 13:18:08",
+    "bus_id":"BUS0209",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"Huda City Centre",
+    "departure_time":"2025-09-12 21:25:57",
+    "bus_id":"BUS0230",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"Ghitorni",
+    "departure_time":"2025-09-12 07:06:48",
+    "bus_id":"BUS0147",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"Sultanpur",
+    "departure_time":"2025-09-12 22:08:03",
+    "bus_id":"BUS0043",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"Sultanpur",
+    "departure_time":"2025-09-12 23:22:35",
+    "bus_id":"BUS0206",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"Ghitorni",
+    "departure_time":"2025-09-12 21:51:16",
+    "bus_id":"BUS0050",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"Sultanpur",
+    "departure_time":"2025-09-12 16:44:47",
+    "bus_id":"BUS0076",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"Sultanpur",
+    "departure_time":"2025-09-12 17:16:19",
+    "bus_id":"BUS0059",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"Arjan Garh",
+    "departure_time":"2025-09-12 15:55:46",
+    "bus_id":"BUS0104",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"Sultanpur",
+    "departure_time":"2025-09-12 13:01:11",
+    "bus_id":"BUS0290",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"Arjan Garh",
+    "departure_time":"2025-09-12 08:14:54",
+    "bus_id":"BUS0093",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"Sultanpur",
+    "departure_time":"2025-09-12 15:53:11",
+    "bus_id":"BUS0279",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"Ghitorni",
+    "departure_time":"2025-09-12 23:54:32",
+    "bus_id":"BUS0124",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"Arjan Garh",
+    "departure_time":"2025-09-12 06:46:02",
+    "bus_id":"BUS0244",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ",
+    "route_long_name":"YELLOW_Huda City Centre to Qutab Minar",
+    "stop_name":"Arjan Garh",
+    "departure_time":"2025-09-12 13:12:22",
+    "bus_id":"BUS0096",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Golf Course",
+    "departure_time":"2025-09-12 16:57:37",
+    "bus_id":"BUS0152",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Noida Sec-52",
+    "departure_time":"2025-09-12 09:59:04",
+    "bus_id":"BUS0295",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Golf Course",
+    "departure_time":"2025-09-12 08:28:15",
+    "bus_id":"BUS0007",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Noida Sec-61",
+    "departure_time":"2025-09-12 20:27:05",
+    "bus_id":"BUS0140",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Noida Sec-61",
+    "departure_time":"2025-09-12 07:14:33",
+    "bus_id":"BUS0162",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Noida Sec-61",
+    "departure_time":"2025-09-12 21:05:07",
+    "bus_id":"BUS0127",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Noida Sec-61",
+    "departure_time":"2025-09-12 12:53:21",
+    "bus_id":"BUS0035",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Noida Sec-61",
+    "departure_time":"2025-09-12 23:13:45",
+    "bus_id":"BUS0218",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Noida Sec-34",
+    "departure_time":"2025-09-12 16:47:08",
+    "bus_id":"BUS0131",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Noida City Centre",
+    "departure_time":"2025-09-12 17:07:03",
+    "bus_id":"BUS0193",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Golf Course",
+    "departure_time":"2025-09-12 22:24:41",
+    "bus_id":"BUS0098",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Noida Sec -18",
+    "departure_time":"2025-09-12 16:50:37",
+    "bus_id":"BUS0185",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Noida Sec -18",
+    "departure_time":"2025-09-12 22:29:25",
+    "bus_id":"BUS0292",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Noida Sec -16",
+    "departure_time":"2025-09-12 17:44:24",
+    "bus_id":"BUS0273",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Noida Sec -16",
+    "departure_time":"2025-09-12 16:52:54",
+    "bus_id":"BUS0198",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Noida Sec -15",
+    "departure_time":"2025-09-12 21:18:21",
+    "bus_id":"BUS0172",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Mayur Vihar Ext",
+    "departure_time":"2025-09-12 11:52:01",
+    "bus_id":"BUS0022",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Akshardham",
+    "departure_time":"2025-09-12 08:41:38",
+    "bus_id":"BUS0227",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Mayur Vihar Ext",
+    "departure_time":"2025-09-12 20:23:07",
+    "bus_id":"BUS0018",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Mayur Vihar-I",
+    "departure_time":"2025-09-12 17:42:24",
+    "bus_id":"BUS0058",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Yamuna Bank",
+    "departure_time":"2025-09-12 21:20:39",
+    "bus_id":"BUS0239",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Akshardham",
+    "departure_time":"2025-09-12 11:19:12",
+    "bus_id":"BUS0014",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"B_DN_R",
+    "route_long_name":"BLUE_Noida Electronic City to Dwarka Sector - 21",
+    "stop_name":"Mayur Vihar Ext",
+    "departure_time":"2025-09-12 19:39:39",
+    "bus_id":"BUS0078",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR",
+    "route_long_name":"VIOLET_Kashmere Gate to Raja Nahar Singh",
+    "stop_name":"Raja Nahar Singh",
+    "departure_time":"2025-09-12 19:34:29",
+    "bus_id":"BUS0062",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KR",
+    "route_long_name":"VIOLET_Kashmere Gate to Raja Nahar Singh",
+    "stop_name":"Escorts Mujesar",
+    "departure_time":"2025-09-12 20:33:49",
+    "bus_id":"BUS0280",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR",
+    "route_long_name":"VIOLET_Kashmere Gate to Raja Nahar Singh",
+    "stop_name":"Bata Chowk",
+    "departure_time":"2025-09-12 19:22:59",
+    "bus_id":"BUS0110",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR",
+    "route_long_name":"VIOLET_Kashmere Gate to Raja Nahar Singh",
+    "stop_name":"Bata Chowk",
+    "departure_time":"2025-09-12 10:21:11",
+    "bus_id":"BUS0264",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR",
+    "route_long_name":"VIOLET_Kashmere Gate to Raja Nahar Singh",
+    "stop_name":"Bata Chowk",
+    "departure_time":"2025-09-12 19:50:11",
+    "bus_id":"BUS0167",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR",
+    "route_long_name":"VIOLET_Kashmere Gate to Raja Nahar Singh",
+    "stop_name":"Neelam Chowk Ajronda",
+    "departure_time":"2025-09-12 20:28:22",
+    "bus_id":"BUS0095",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR",
+    "route_long_name":"VIOLET_Kashmere Gate to Raja Nahar Singh",
+    "stop_name":"Neelam Chowk Ajronda",
+    "departure_time":"2025-09-12 17:34:10",
+    "bus_id":"BUS0111",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR",
+    "route_long_name":"VIOLET_Kashmere Gate to Raja Nahar Singh",
+    "stop_name":"NHPC Chowk",
+    "departure_time":"2025-09-12 21:44:38",
+    "bus_id":"BUS0171",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR",
+    "route_long_name":"VIOLET_Kashmere Gate to Raja Nahar Singh",
+    "stop_name":"Sarai",
+    "departure_time":null,
+    "bus_id":"BUS0075",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR",
+    "route_long_name":"VIOLET_Kashmere Gate to Raja Nahar Singh",
+    "stop_name":"Sarai",
+    "departure_time":"2025-09-12 10:16:55",
+    "bus_id":"BUS0233",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR",
+    "route_long_name":"VIOLET_Kashmere Gate to Raja Nahar Singh",
+    "stop_name":"Badarpur Border",
+    "departure_time":"2025-09-12 17:42:47",
+    "bus_id":"BUS0203",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KR",
+    "route_long_name":"VIOLET_Kashmere Gate to Raja Nahar Singh",
+    "stop_name":"Tughlakabad Station",
+    "departure_time":"2025-09-12 10:38:14",
+    "bus_id":"BUS0170",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR",
+    "route_long_name":"VIOLET_Kashmere Gate to Raja Nahar Singh",
+    "stop_name":"Mohan Estate",
+    "departure_time":"2025-09-12 18:55:42",
+    "bus_id":"BUS0174",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR",
+    "route_long_name":"VIOLET_Kashmere Gate to Raja Nahar Singh",
+    "stop_name":"Sarita Vihar",
+    "departure_time":"2025-09-12 15:54:55",
+    "bus_id":"BUS0273",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KR",
+    "route_long_name":"VIOLET_Kashmere Gate to Raja Nahar Singh",
+    "stop_name":"Sarita Vihar",
+    "departure_time":"2025-09-12 18:32:43",
+    "bus_id":"BUS0269",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KR",
+    "route_long_name":"VIOLET_Kashmere Gate to Raja Nahar Singh",
+    "stop_name":"Harkesh Nagar Okhla",
+    "departure_time":"2025-09-12 21:51:19",
+    "bus_id":"BUS0054",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KR",
+    "route_long_name":"VIOLET_Kashmere Gate to Raja Nahar Singh",
+    "stop_name":"Jasola-Apollo",
+    "departure_time":"2025-09-12 20:18:49",
+    "bus_id":"BUS0089",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KR",
+    "route_long_name":"VIOLET_Kashmere Gate to Raja Nahar Singh",
+    "stop_name":"Nehru Place",
+    "departure_time":"2025-09-12 16:17:39",
+    "bus_id":"BUS0097",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR",
+    "route_long_name":"VIOLET_Kashmere Gate to Raja Nahar Singh",
+    "stop_name":"Jasola-Apollo",
+    "departure_time":"2025-09-12 13:19:13",
+    "bus_id":"BUS0239",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KR",
+    "route_long_name":"VIOLET_Kashmere Gate to Raja Nahar Singh",
+    "stop_name":"Nehru Place",
+    "departure_time":"2025-09-12 13:44:39",
+    "bus_id":"BUS0225",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KR",
+    "route_long_name":"VIOLET_Kashmere Gate to Raja Nahar Singh",
+    "stop_name":"Jasola-Apollo",
+    "departure_time":"2025-09-12 17:49:13",
+    "bus_id":"BUS0105",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB_R",
+    "route_long_name":"MAGENTA_Botanical Garden to Janak Puri West",
+    "stop_name":"Nehru Enclave",
+    "departure_time":"2025-09-12 11:03:01",
+    "bus_id":"BUS0251",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"M_JB_R",
+    "route_long_name":"MAGENTA_Botanical Garden to Janak Puri West",
+    "stop_name":"Okhla NSIC",
+    "departure_time":"2025-09-12 15:55:53",
+    "bus_id":"BUS0006",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"M_JB_R",
+    "route_long_name":"MAGENTA_Botanical Garden to Janak Puri West",
+    "stop_name":"Jamia Millia Islamia",
+    "departure_time":"2025-09-12 18:51:07",
+    "bus_id":"BUS0001",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB_R",
+    "route_long_name":"MAGENTA_Botanical Garden to Janak Puri West",
+    "stop_name":"Jamia Millia Islamia",
+    "departure_time":"2025-09-12 06:23:32",
+    "bus_id":"BUS0114",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB_R",
+    "route_long_name":"MAGENTA_Botanical Garden to Janak Puri West",
+    "stop_name":"Kalkaji Mandir",
+    "departure_time":"2025-09-12 16:04:55",
+    "bus_id":"BUS0224",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB_R",
+    "route_long_name":"MAGENTA_Botanical Garden to Janak Puri West",
+    "stop_name":"Kalkaji Mandir",
+    "departure_time":"2025-09-12 15:44:40",
+    "bus_id":"BUS0014",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB_R",
+    "route_long_name":"MAGENTA_Botanical Garden to Janak Puri West",
+    "stop_name":"Jamia Millia Islamia",
+    "departure_time":"2025-09-12 16:57:52",
+    "bus_id":"BUS0177",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB_R",
+    "route_long_name":"MAGENTA_Botanical Garden to Janak Puri West",
+    "stop_name":"Kalkaji Mandir",
+    "departure_time":"2025-09-12 15:17:40",
+    "bus_id":"BUS0006",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB_R",
+    "route_long_name":"MAGENTA_Botanical Garden to Janak Puri West",
+    "stop_name":"Kalkaji Mandir",
+    "departure_time":"2025-09-12 08:31:15",
+    "bus_id":"BUS0097",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB_R",
+    "route_long_name":"MAGENTA_Botanical Garden to Janak Puri West",
+    "stop_name":"Chirag Delhi",
+    "departure_time":"2025-09-12 11:12:55",
+    "bus_id":"BUS0173",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"M_JB_R",
+    "route_long_name":"MAGENTA_Botanical Garden to Janak Puri West",
+    "stop_name":"Panchsheel Park",
+    "departure_time":"2025-09-12 06:46:49",
+    "bus_id":"BUS0242",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"M_JB_R",
+    "route_long_name":"MAGENTA_Botanical Garden to Janak Puri West",
+    "stop_name":"IIT",
+    "departure_time":"2025-09-12 14:03:42",
+    "bus_id":"BUS0061",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"M_JB_R",
+    "route_long_name":"MAGENTA_Botanical Garden to Janak Puri West",
+    "stop_name":"RK Puram",
+    "departure_time":"2025-09-12 11:22:10",
+    "bus_id":"BUS0036",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"M_JB_R",
+    "route_long_name":"MAGENTA_Botanical Garden to Janak Puri West",
+    "stop_name":"RK Puram",
+    "departure_time":"2025-09-12 21:29:10",
+    "bus_id":"BUS0276",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"M_JB_R",
+    "route_long_name":"MAGENTA_Botanical Garden to Janak Puri West",
+    "stop_name":"RK Puram",
+    "departure_time":"2025-09-12 19:14:50",
+    "bus_id":"BUS0277",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"M_JB_R",
+    "route_long_name":"MAGENTA_Botanical Garden to Janak Puri West",
+    "stop_name":"Munirka",
+    "departure_time":"2025-09-12 07:43:55",
+    "bus_id":"BUS0141",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"M_JB_R",
+    "route_long_name":"MAGENTA_Botanical Garden to Janak Puri West",
+    "stop_name":"Vasant Vihar",
+    "departure_time":"2025-09-12 16:53:22",
+    "bus_id":"BUS0044",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"M_JB_R",
+    "route_long_name":"MAGENTA_Botanical Garden to Janak Puri West",
+    "stop_name":"Terminal 1- IGI Airport",
+    "departure_time":"2025-09-12 18:35:15",
+    "bus_id":"BUS0048",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"M_JB_R",
+    "route_long_name":"MAGENTA_Botanical Garden to Janak Puri West",
+    "stop_name":"Sadar Bazar Contonment",
+    "departure_time":"2025-09-12 19:09:29",
+    "bus_id":"BUS0160",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"M_JB_R",
+    "route_long_name":"MAGENTA_Botanical Garden to Janak Puri West",
+    "stop_name":"Shankar Vihar",
+    "departure_time":"2025-09-12 09:57:50",
+    "bus_id":"BUS0083",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KB",
+    "route_long_name":"VIOLET_Kashmere Gate to Badarpur Border",
+    "stop_name":"Moolchand",
+    "departure_time":"2025-09-12 08:32:19",
+    "bus_id":"BUS0081",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KB",
+    "route_long_name":"VIOLET_Kashmere Gate to Badarpur Border",
+    "stop_name":"Govind Puri",
+    "departure_time":"2025-09-12 07:12:16",
+    "bus_id":"BUS0009",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KB",
+    "route_long_name":"VIOLET_Kashmere Gate to Badarpur Border",
+    "stop_name":"Govind Puri",
+    "departure_time":"2025-09-12 12:22:04",
+    "bus_id":"BUS0134",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KB",
+    "route_long_name":"VIOLET_Kashmere Gate to Badarpur Border",
+    "stop_name":"Kailash Colony",
+    "departure_time":"2025-09-12 18:08:24",
+    "bus_id":"BUS0227",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KB",
+    "route_long_name":"VIOLET_Kashmere Gate to Badarpur Border",
+    "stop_name":"Moolchand",
+    "departure_time":"2025-09-12 18:12:31",
+    "bus_id":"BUS0238",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KB",
+    "route_long_name":"VIOLET_Kashmere Gate to Badarpur Border",
+    "stop_name":"Kailash Colony",
+    "departure_time":"2025-09-12 10:39:36",
+    "bus_id":"BUS0193",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KB",
+    "route_long_name":"VIOLET_Kashmere Gate to Badarpur Border",
+    "stop_name":"Govind Puri",
+    "departure_time":"2025-09-12 20:04:28",
+    "bus_id":"BUS0010",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KB",
+    "route_long_name":"VIOLET_Kashmere Gate to Badarpur Border",
+    "stop_name":"Govind Puri",
+    "departure_time":"2025-09-12 12:01:40",
+    "bus_id":"BUS0064",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KB",
+    "route_long_name":"VIOLET_Kashmere Gate to Badarpur Border",
+    "stop_name":"Nehru Place",
+    "departure_time":"2025-09-12 09:27:27",
+    "bus_id":"BUS0289",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KB",
+    "route_long_name":"VIOLET_Kashmere Gate to Badarpur Border",
+    "stop_name":"Kailash Colony",
+    "departure_time":"2025-09-12 09:31:36",
+    "bus_id":"BUS0258",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KB",
+    "route_long_name":"VIOLET_Kashmere Gate to Badarpur Border",
+    "stop_name":"Kailash Colony",
+    "departure_time":"2025-09-12 20:38:00",
+    "bus_id":"BUS0194",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KB",
+    "route_long_name":"VIOLET_Kashmere Gate to Badarpur Border",
+    "stop_name":"Harkesh Nagar Okhla",
+    "departure_time":"2025-09-12 07:33:31",
+    "bus_id":"BUS0122",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KB",
+    "route_long_name":"VIOLET_Kashmere Gate to Badarpur Border",
+    "stop_name":"Mandi House",
+    "departure_time":"2025-09-12 14:36:36",
+    "bus_id":"BUS0119",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"V_KB",
+    "route_long_name":"VIOLET_Kashmere Gate to Badarpur Border",
+    "stop_name":"Janpath",
+    "departure_time":"2025-09-12 13:37:15",
+    "bus_id":"BUS0241",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KB",
+    "route_long_name":"VIOLET_Kashmere Gate to Badarpur Border",
+    "stop_name":"Jawahar Lal Nehru Stadium",
+    "departure_time":"2025-09-12 17:30:47",
+    "bus_id":"BUS0010",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KB",
+    "route_long_name":"VIOLET_Kashmere Gate to Badarpur Border",
+    "stop_name":"Jangpura",
+    "departure_time":"2025-09-12 12:20:26",
+    "bus_id":"BUS0165",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KB",
+    "route_long_name":"VIOLET_Kashmere Gate to Badarpur Border",
+    "stop_name":"Jangpura",
+    "departure_time":"2025-09-12 12:36:14",
+    "bus_id":"BUS0035",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KB",
+    "route_long_name":"VIOLET_Kashmere Gate to Badarpur Border",
+    "stop_name":"ITO",
+    "departure_time":"2025-09-12 09:54:31",
+    "bus_id":"BUS0245",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"V_KB",
+    "route_long_name":"VIOLET_Kashmere Gate to Badarpur Border",
+    "stop_name":"Jangpura",
+    "departure_time":"2025-09-12 19:01:38",
+    "bus_id":"BUS0247",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"A_ND_R",
+    "route_long_name":"AQUA_Depot Station to Noida Sector 142",
+    "stop_name":"Noida Sector 145",
+    "departure_time":"2025-09-12 18:22:35",
+    "bus_id":"BUS0217",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"A_ND_R",
+    "route_long_name":"AQUA_Depot Station to Noida Sector 142",
+    "stop_name":"Noida Sector 144",
+    "departure_time":"2025-09-12 08:13:40",
+    "bus_id":"BUS0277",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"A_ND_R",
+    "route_long_name":"AQUA_Depot Station to Noida Sector 142",
+    "stop_name":"Noida Sector 143",
+    "departure_time":"2025-09-12 06:41:00",
+    "bus_id":"BUS0237",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"A_ND_R",
+    "route_long_name":"AQUA_Depot Station to Noida Sector 142",
+    "stop_name":"Noida Sector 142",
+    "departure_time":"2025-09-12 17:55:50",
+    "bus_id":"BUS0104",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"A_ND_R",
+    "route_long_name":"AQUA_Depot Station to Noida Sector 142",
+    "stop_name":"Noida Sector 143",
+    "departure_time":"2025-09-12 10:42:15",
+    "bus_id":"BUS0210",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"A_ND_R",
+    "route_long_name":"AQUA_Depot Station to Noida Sector 142",
+    "stop_name":"Noida Sector 142",
+    "departure_time":"2025-09-12 17:29:35",
+    "bus_id":"BUS0267",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"A_ND_R",
+    "route_long_name":"AQUA_Depot Station to Noida Sector 142",
+    "stop_name":"Noida Sector 145",
+    "departure_time":"2025-09-12 18:41:20",
+    "bus_id":"BUS0041",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"A_ND_R",
+    "route_long_name":"AQUA_Depot Station to Noida Sector 142",
+    "stop_name":"Noida Sector 144",
+    "departure_time":"2025-09-12 11:36:10",
+    "bus_id":"BUS0186",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"A_ND_R",
+    "route_long_name":"AQUA_Depot Station to Noida Sector 142",
+    "stop_name":"Noida Sector 142",
+    "departure_time":"2025-09-12 09:22:05",
+    "bus_id":"BUS0019",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"A_ND_R",
+    "route_long_name":"AQUA_Depot Station to Noida Sector 142",
+    "stop_name":"Pari Chowk",
+    "departure_time":"2025-09-12 12:10:55",
+    "bus_id":"BUS0148",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"A_ND_R",
+    "route_long_name":"AQUA_Depot Station to Noida Sector 142",
+    "stop_name":"Knowledge Park",
+    "departure_time":"2025-09-12 10:05:45",
+    "bus_id":"BUS0291",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"A_ND_R",
+    "route_long_name":"AQUA_Depot Station to Noida Sector 142",
+    "stop_name":"Alpha 1",
+    "departure_time":"2025-09-12 12:33:35",
+    "bus_id":"BUS0170",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"A_ND_R",
+    "route_long_name":"AQUA_Depot Station to Noida Sector 142",
+    "stop_name":"Pari Chowk",
+    "departure_time":"2025-09-12 10:29:40",
+    "bus_id":"BUS0129",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"A_ND_R",
+    "route_long_name":"AQUA_Depot Station to Noida Sector 142",
+    "stop_name":"Noida Sector 148",
+    "departure_time":"2025-09-12 06:24:20",
+    "bus_id":"BUS0110",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"A_ND_R",
+    "route_long_name":"AQUA_Depot Station to Noida Sector 142",
+    "stop_name":"Alpha 1",
+    "departure_time":"2025-09-12 16:28:35",
+    "bus_id":"BUS0238",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"A_ND_R",
+    "route_long_name":"AQUA_Depot Station to Noida Sector 142",
+    "stop_name":"Alpha 1",
+    "departure_time":"2025-09-12 17:03:35",
+    "bus_id":"BUS0016",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"A_ND_R",
+    "route_long_name":"AQUA_Depot Station to Noida Sector 142",
+    "stop_name":"Pari Chowk",
+    "departure_time":"2025-09-12 17:52:10",
+    "bus_id":"BUS0176",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"A_ND_R",
+    "route_long_name":"AQUA_Depot Station to Noida Sector 142",
+    "stop_name":"Noida Sector 147",
+    "departure_time":"2025-09-12 09:14:10",
+    "bus_id":"BUS0085",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ_R",
+    "route_long_name":"YELLOW_Qutab Minar  to Huda City Centre",
+    "stop_name":"Huda City Centre",
+    "departure_time":"2025-09-12 13:06:59",
+    "bus_id":"BUS0013",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ_R",
+    "route_long_name":"YELLOW_Qutab Minar  to Huda City Centre",
+    "stop_name":"Huda City Centre",
+    "departure_time":"2025-09-12 21:42:19",
+    "bus_id":"BUS0257",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ_R",
+    "route_long_name":"YELLOW_Qutab Minar  to Huda City Centre",
+    "stop_name":"Huda City Centre",
+    "departure_time":"2025-09-12 16:47:43",
+    "bus_id":"BUS0001",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ_R",
+    "route_long_name":"YELLOW_Qutab Minar  to Huda City Centre",
+    "stop_name":"IFFCO Chowk",
+    "departure_time":"2025-09-12 20:52:43",
+    "bus_id":"BUS0152",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ_R",
+    "route_long_name":"YELLOW_Qutab Minar  to Huda City Centre",
+    "stop_name":"MG Road",
+    "departure_time":"2025-09-12 17:08:31",
+    "bus_id":"BUS0070",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ_R",
+    "route_long_name":"YELLOW_Qutab Minar  to Huda City Centre",
+    "stop_name":"MG Road",
+    "departure_time":"2025-09-12 21:57:23",
+    "bus_id":"BUS0023",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ_R",
+    "route_long_name":"YELLOW_Qutab Minar  to Huda City Centre",
+    "stop_name":"Sikanderpur",
+    "departure_time":"2025-09-12 17:08:56",
+    "bus_id":"BUS0279",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ_R",
+    "route_long_name":"YELLOW_Qutab Minar  to Huda City Centre",
+    "stop_name":"Sikanderpur",
+    "departure_time":"2025-09-12 14:16:56",
+    "bus_id":"BUS0178",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ_R",
+    "route_long_name":"YELLOW_Qutab Minar  to Huda City Centre",
+    "stop_name":"Arjan Garh",
+    "departure_time":"2025-09-12 11:55:34",
+    "bus_id":"BUS0171",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ_R",
+    "route_long_name":"YELLOW_Qutab Minar  to Huda City Centre",
+    "stop_name":"Ghitorni",
+    "departure_time":"2025-09-12 15:48:00",
+    "bus_id":"BUS0053",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ_R",
+    "route_long_name":"YELLOW_Qutab Minar  to Huda City Centre",
+    "stop_name":"Sultanpur",
+    "departure_time":"2025-09-12 10:35:33",
+    "bus_id":"BUS0100",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ_R",
+    "route_long_name":"YELLOW_Qutab Minar  to Huda City Centre",
+    "stop_name":"Chhattarpur",
+    "departure_time":"2025-09-12 19:33:50",
+    "bus_id":"BUS0107",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ_R",
+    "route_long_name":"YELLOW_Qutab Minar  to Huda City Centre",
+    "stop_name":"Chhattarpur",
+    "departure_time":"2025-09-12 12:01:30",
+    "bus_id":"BUS0021",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ_R",
+    "route_long_name":"YELLOW_Qutab Minar  to Huda City Centre",
+    "stop_name":"Qutab Minar",
+    "departure_time":"2025-09-12 05:50:12",
+    "bus_id":"BUS0021",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ_R",
+    "route_long_name":"YELLOW_Qutab Minar  to Huda City Centre",
+    "stop_name":"Qutab Minar",
+    "departure_time":"2025-09-12 23:32:24",
+    "bus_id":"BUS0186",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ_R",
+    "route_long_name":"YELLOW_Qutab Minar  to Huda City Centre",
+    "stop_name":"Qutab Minar",
+    "departure_time":"2025-09-12 14:39:52",
+    "bus_id":"BUS0012",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"Y_HQ_R",
+    "route_long_name":"YELLOW_Qutab Minar  to Huda City Centre",
+    "stop_name":"Qutab Minar",
+    "departure_time":"2025-09-12 08:16:52",
+    "bus_id":"BUS0168",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"R_SP_R",
+    "route_long_name":"RAPID_Phase 3 (Rapid Metro) to Sector 55-56 (Rapid Metro)",
+    "stop_name":"Belvedere Towers (Rapid Metro)",
+    "departure_time":"2025-09-12 18:01:30",
+    "bus_id":"BUS0244",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"R_SP_R",
+    "route_long_name":"RAPID_Phase 3 (Rapid Metro) to Sector 55-56 (Rapid Metro)",
+    "stop_name":"Belvedere Towers (Rapid Metro)",
+    "departure_time":"2025-09-12 16:13:10",
+    "bus_id":"BUS0261",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"R_SP_R",
+    "route_long_name":"RAPID_Phase 3 (Rapid Metro) to Sector 55-56 (Rapid Metro)",
+    "stop_name":"Moulsari Avenue (Rapid Metro)",
+    "departure_time":"2025-09-12 14:30:30",
+    "bus_id":"BUS0297",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"R_SP_R",
+    "route_long_name":"RAPID_Phase 3 (Rapid Metro) to Sector 55-56 (Rapid Metro)",
+    "stop_name":"Phase 2 (Rapid Metro)",
+    "departure_time":"2025-09-12 09:08:00",
+    "bus_id":"BUS0175",
+    "traffic_level":"High"
+  },
+  {
+    "route_short_name":"R_SP_R",
+    "route_long_name":"RAPID_Phase 3 (Rapid Metro) to Sector 55-56 (Rapid Metro)",
+    "stop_name":"Phase 2 (Rapid Metro)",
+    "departure_time":"2025-09-12 18:24:10",
+    "bus_id":"BUS0241",
+    "traffic_level":"High"
+  },
+  {
+    "route_short_name":"R_SP_R",
+    "route_long_name":"RAPID_Phase 3 (Rapid Metro) to Sector 55-56 (Rapid Metro)",
+    "stop_name":"Phase 2 (Rapid Metro)",
+    "departure_time":"2025-09-12 18:33:50",
+    "bus_id":"BUS0052",
+    "traffic_level":"High"
+  },
+  {
+    "route_short_name":"R_SP_R",
+    "route_long_name":"RAPID_Phase 3 (Rapid Metro) to Sector 55-56 (Rapid Metro)",
+    "stop_name":"Sikanderpur",
+    "departure_time":"2025-09-12 14:49:10",
+    "bus_id":"BUS0100",
+    "traffic_level":"High"
+  },
+  {
+    "route_short_name":"R_SP_R",
+    "route_long_name":"RAPID_Phase 3 (Rapid Metro) to Sector 55-56 (Rapid Metro)",
+    "stop_name":"Sikanderpur (Rapid Metro)",
+    "departure_time":"2025-09-12 10:12:20",
+    "bus_id":"BUS0100",
+    "traffic_level":"High"
+  },
+  {
+    "route_short_name":"R_SP_R",
+    "route_long_name":"RAPID_Phase 3 (Rapid Metro) to Sector 55-56 (Rapid Metro)",
+    "stop_name":"Sikanderpur (Rapid Metro)",
+    "departure_time":"2025-09-12 13:10:50",
+    "bus_id":"BUS0277",
+    "traffic_level":"High"
+  },
+  {
+    "route_short_name":"R_SP_R",
+    "route_long_name":"RAPID_Phase 3 (Rapid Metro) to Sector 55-56 (Rapid Metro)",
+    "stop_name":"Phase-I (Rapid Metro)",
+    "departure_time":"2025-09-12 07:18:40",
+    "bus_id":"BUS0289",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"R_SP_R",
+    "route_long_name":"RAPID_Phase 3 (Rapid Metro) to Sector 55-56 (Rapid Metro)",
+    "stop_name":"Phase-I (Rapid Metro)",
+    "departure_time":"2025-09-12 21:29:10",
+    "bus_id":"BUS0081",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"R_SP_R",
+    "route_long_name":"RAPID_Phase 3 (Rapid Metro) to Sector 55-56 (Rapid Metro)",
+    "stop_name":"Sector 53-54 (Rapid Metro)",
+    "departure_time":"2025-09-12 10:18:50",
+    "bus_id":"BUS0215",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"R_SP_R",
+    "route_long_name":"RAPID_Phase 3 (Rapid Metro) to Sector 55-56 (Rapid Metro)",
+    "stop_name":"Sector 53-54 (Rapid Metro)",
+    "departure_time":"2025-09-12 06:49:20",
+    "bus_id":"BUS0190",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"R_SP_R",
+    "route_long_name":"RAPID_Phase 3 (Rapid Metro) to Sector 55-56 (Rapid Metro)",
+    "stop_name":"Sector 55-56 (Rapid Metro)",
+    "departure_time":"2025-09-12 08:08:00",
+    "bus_id":"BUS0125",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"R_SP_R",
+    "route_long_name":"RAPID_Phase 3 (Rapid Metro) to Sector 55-56 (Rapid Metro)",
+    "stop_name":"Sector 55-56 (Rapid Metro)",
+    "departure_time":"2025-09-12 14:52:50",
+    "bus_id":"BUS0027",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"R_SP_R",
+    "route_long_name":"RAPID_Phase 3 (Rapid Metro) to Sector 55-56 (Rapid Metro)",
+    "stop_name":"Sector 55-56 (Rapid Metro)",
+    "departure_time":"2025-09-12 10:30:20",
+    "bus_id":"BUS0139",
+    "traffic_level":"Medium"
+  },
+  {
+    "route_short_name":"R_SP_R",
+    "route_long_name":"RAPID_Phase 3 (Rapid Metro) to Sector 55-56 (Rapid Metro)",
+    "stop_name":"Sector 54 Chowk (Rapid Metro)",
+    "departure_time":"2025-09-12 11:10:30",
+    "bus_id":"BUS0240",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"G_DD_R",
+    "route_long_name":"GRAY_Dhansa Bus Stand to Dwarka",
+    "stop_name":"Dhansa Bus Stand",
+    "departure_time":"2025-09-12 05:55:20",
+    "bus_id":"BUS0043",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"G_DD_R",
+    "route_long_name":"GRAY_Dhansa Bus Stand to Dwarka",
+    "stop_name":"Najafgarh",
+    "departure_time":"2025-09-12 19:48:40",
+    "bus_id":"BUS0095",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"G_DD_R",
+    "route_long_name":"GRAY_Dhansa Bus Stand to Dwarka",
+    "stop_name":"Dwarka",
+    "departure_time":"2025-09-12 14:19:40",
+    "bus_id":"BUS0280",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"G_DD_R",
+    "route_long_name":"GRAY_Dhansa Bus Stand to Dwarka",
+    "stop_name":"Nangli",
+    "departure_time":"2025-09-12 14:32:04",
+    "bus_id":"BUS0233",
+    "traffic_level":"Low"
+  },
+  {
+    "route_short_name":"G_DD_R",
+    "route_long_name":"GRAY_Dhansa Bus Stand to Dwarka",
+    "stop_name":"Najafgarh",
+    "departure_time":"2025-09-12 10:24:40",
+    "bus_id":"BUS0013",
+    "traffic_level":"Low"
+  }
+]
