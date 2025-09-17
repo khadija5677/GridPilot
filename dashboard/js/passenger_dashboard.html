@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Passenger Dashboard - DTC Route Rationalization</title>
+  <link rel="stylesheet" href="dashboard/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="index.html" style="color: #007bff; text-decoration: none; font-size: 14px;">← Back to Home</a>
+      <h1>Passenger Dashboard</h1>
+      <p>Welcome, Passenger! (<span id="time"></span>)</p>
+    </header>
+
+    <!-- Map Container -->
+    <div id="map" style="height: 400px; margin-bottom: 20px;">
+      <div class="map-placeholder">
+        <p>Enter your Google Maps API key above to enable real-time map visualization</p>
+        <p>Showing simulated bus positions below:</p>
+      </div>
+    </div>
+
+    <div class="dashboard">
+      <div class="card" style="grid-column: 1 / -1;">
+        <h2>Request Bus Service</h2>
+        <div id="user-request-form">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px;">
+            <div>
+              <label><strong>Pickup Location:</strong></label>
+              <select id="pickup-location" style="width: 100%; padding: 8px; margin-top: 5px;" onchange="updatePickupCoordinates(this.value)">
+                <option value="">Select pickup location</option>
+                <option value="28.6315,77.2167">Connaught Place</option>
+                <option value="28.6328,77.2197">Rajiv Chowk</option>
+                <option value="28.6421,77.2205">New Delhi Railway Station</option>
+                <option value="28.6655,77.2291">Kashmere Gate</option>
+                <option value="28.6562,77.2410">Red Fort</option>
+                <option value="28.5850,77.0350">Dwarka Sector 14</option>
+                <option value="28.5920,77.0500">Dwarka Mor</option>
+                <option value="28.6000,77.0700">Uttam Nagar</option>
+                <option value="28.6200,77.0900">Janakpuri</option>
+                <option value="28.6300,77.1100">CBD Belapur</option>
+                <option value="28.7100,77.1200">Rohini Sector 8</option>
+                <option value="28.6950,77.1350">Pitampura</option>
+                <option value="28.6800,77.1500">Kohat Enclave</option>
+                <option value="28.6700,77.1700">Netaji Subhash Place</option>
+                <option value="28.5700,77.3200">Noida Sector 18</option>
+                <option value="28.5500,77.2250">Hauz Khas</option>
+                <option value="28.5300,77.2400">Green Park</option>
+                <option value="28.5200,77.2500">AIIMS</option>
+                <option value="28.5100,77.2550">Saket</option>
+              </select>
+              <div style="font-size: 12px; color: #666; margin-top: 5px;">
+                Or use current location: 
+                <button onclick="getCurrentLocation('pickup')" style="padding: 4px 8px; font-size: 12px;">Get Location</button>
+              </div>
+              <input type="hidden" id="pickup-lat">
+              <input type="hidden" id="pickup-lng">
+            </div>
+            <div>
+              <label><strong>Destination:</strong></label>
+              <select id="destination-location" style="width: 100%; padding: 8px; margin-top: 5px;" onchange="updateDestinationCoordinates(this.value)">
+                <option value="">Select destination</option>
+                <option value="28.6315,77.2167">Connaught Place</option>
+                <option value="28.6328,77.2197">Rajiv Chowk</option>
+                <option value="28.6421,77.2205">New Delhi Railway Station</option>
+                <option value="28.6655,77.2291">Kashmere Gate</option>
+                <option value="28.6562,77.2410">Red Fort</option>
+                <option value="28.5850,77.0350">Dwarka Sector 14</option>
+                <option value="28.5920,77.0500">Dwarka Mor</option>
+                <option value="28.6000,77.0700">Uttam Nagar</option>
+                <option value="28.6200,77.0900">Janakpuri</option>
+                <option value="28.6300,77.1100">CBD Belapur</option>
+                <option value="28.7100,77.1200">Rohini Sector 8</option>
+                <option value="28.6950,77.1350">Pitampura</option>
+                <option value="28.6800,77.1500">Kohat Enclave</option>
+                <option value="28.6700,77.1700">Netaji Subhash Place</option>
+                <option value="28.5700,77.3200">Noida Sector 18</option>
+                <option value="28.5500,77.2250">Hauz Khas</option>
+                <option value="28.5300,77.2400">Green Park</option>
+                <option value="28.5200,77.2500">AIIMS</option>
+                <option value="28.5100,77.2550">Saket</option>
+              </select>
+              <div style="font-size: 12px; color: #666; margin-top: 5px;">
+                Or use current location: 
+                <button onclick="getCurrentLocation('destination')" style="padding: 4px 8px; font-size: 12px;">Get Location</button>
+              </div>
+              <input type="hidden" id="destination-lat">
+              <input type="hidden" id="destination-lng">
+            </div>
+          </div>
+          
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px;">
+            <div>
+              <label><strong>Preferred Time:</strong></label>
+              <input type="datetime-local" id="preferred-time" style="width: 100%; padding: 8px; margin-top: 5px;">
+            </div>
+            <div style="display: flex; align-items: flex-end;">
+              <button onclick="submitRequest()" style="padding: 10px 20px; background: #28a745;">Find Best Route</button>
+            </div>
+          </div>
+        </div>
+        
+        <div id="suggested-routes" style="display: none; margin-top: 20px; border-top: 1px solid #eee; padding-top: 15px;">
+          <h3>Suggested Routes</h3>
+          <div id="routes-list"></div>
+        </div>
+      </div>
+
+      <div class="card futuristic-passenger">
+        <h2>🚀 Advanced Passenger Features</h2>
+        <div class="passenger-features">
+          <div class="feature-item">
+            <h4>🎯 Smart Route Prediction</h4>
+            <p>AI predicts your preferred routes based on travel history</p>
+            <button onclick="enableSmartPrediction()">Enable</button>
+          </div>
+          <div class="feature-item">
+            <h4>💎 Premium Blockchain Ticketing</h4>
+            <p>Secure, instant ticket booking with NFT receipts</p>
+            <button onclick="bookPremiumTicket()">Book Now</button>
+          </div>
+          <div class="feature-item">
+            <h4>🕶️ AR Bus Tracking</h4>
+            <p>Augmented reality view of approaching buses</p>
+            <button onclick="activateARMode()">Activate AR</button>
+          </div>
+          <div class="feature-item">
+            <h4>🌟 Carbon Offset Rewards</h4>
+            <p>Earn rewards for choosing eco-friendly routes</p>
+            <div class="reward-points">Points: 1,250</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="grid-column: 1 / -1;">
+        <h2>My Bus Requests</h2>
+        <div id="my-requests">
+          <p>Loading your requests...</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button onclick="refreshData()">Refresh Data</button>
+      <button onclick="generateReport()">Generate Report</button>
+    </div>
+
+    <div class="logout-container">
+      <button onclick="logout()">Logout</button>
+    </div>
+  </div>
+
+  <script src="dashboard/js/map.js"></script>
+  <script src="dashboard/js/dashboard.js"></script>
+  <script src="dashboard/js/requests.js"></script>
+</body>
+</html>
