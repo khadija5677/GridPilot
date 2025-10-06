@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Driver Dashboard - DTC Route Rationalization</title>
+  <link rel="stylesheet" href="dashboard/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="index.html" style="color: #007bff; text-decoration: none; font-size: 14px;">← Back to Home</a>
+      <h1>Driver Dashboard</h1>
+      <p>Welcome, Driver! (<span id="time"></span>)</p>
+    </header>
+
+    <!-- Map Container -->
+    <div id="map" style="height: 400px; margin-bottom: 20px;">
+      <div class="map-placeholder">
+        <p>Enter your Google Maps API key above to enable real-time map visualization</p>
+        <p>Showing simulated bus positions below:</p>
+      </div>
+    </div>
+
+    <div class="status-indicators">
+      <div class="indicator">
+        <div><span class="traffic-light green"></span> Bus Status</div>
+        <div class="indicator value" id="bus-status">On Route</div>
+      </div>
+      <div class="indicator">
+        <div>Current Route</div>
+        <div class="indicator value" id="current-route">Route 101</div>
+      </div>
+      <div class="indicator">
+        <div>Next Stop</div>
+        <div class="indicator value" id="next-stop">Rajiv Chowk</div>
+      </div>
+      <div class="indicator">
+        <div>Passengers</div>
+        <div class="indicator value" id="passenger-count">25</div>
+      </div>
+    </div>
+
+    <div class="dashboard">
+      <div class="card">
+        <h2>My Assigned Route</h2>
+        <div id="assigned-route">
+          <p><strong>Route:</strong> 101 (Connaught Place - Red Fort)</p>
+          <p><strong>Bus ID:</strong> DTC-101A</p>
+          <p><strong>Schedule:</strong> 6:00 AM - 10:00 PM</p>
+          <p><strong>Frequency:</strong> Every 15 minutes</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Route Progress</h2>
+        <div id="route-progress">
+          <div style="margin-bottom: 10px;">
+            <strong>Current Location:</strong> Connaught Place
+          </div>
+          <div style="margin-bottom: 10px;">
+            <strong>Next Stop:</strong> Rajiv Chowk (2 km)
+          </div>
+          <div style="margin-bottom: 10px;">
+            <strong>ETA:</strong> 5 minutes
+          </div>
+          <button onclick="updateLocation()">Update Location</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Passenger Announcements</h2>
+        <textarea id="announcement-text" placeholder="Enter announcement..." rows="3"></textarea>
+        <button onclick="makeAnnouncement()">Make Announcement</button>
+      </div>
+
+      <div class="card">
+        <h2>Emergency Controls</h2>
+        <button onclick="emergencyStop()" style="background: #dc3545;">Emergency Stop</button>
+        <button onclick="requestAssistance()">Request Assistance</button>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button onclick="refreshData()">Refresh Status</button>
+    </div>
+
+    <div class="logout-container">
+      <button onclick="logout()">Logout</button>
+    </div>
+  </div>
+
+  <script src="dashboard/js/dashboard.js"></script>
+  <script src="dashboard/js/map.js"></script>
+  <script>
+    // Driver-specific functions
+    function updateLocation() {
+      alert('Location updated successfully!');
+    }
+
+    function makeAnnouncement() {
+      const announcement = document.getElementById('announcement-text').value;
+      if (announcement.trim()) {
+        alert('Announcement made: ' + announcement);
+        document.getElementById('announcement-text').value = '';
+      } else {
+        alert('Please enter an announcement.');
+      }
+    }
+
+    function emergencyStop() {
+      if (confirm('Are you sure you want to activate emergency stop?')) {
+        alert('Emergency stop activated. Bus will stop at next safe location.');
+      }
+    }
+
+    function requestAssistance() {
+      alert('Assistance request sent to control center.');
+    }
+  </script>
+</body>
+</html>
